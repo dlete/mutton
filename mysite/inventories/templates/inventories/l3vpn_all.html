@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<div class="alert alert-info" role="alert" id="myheader">
+  <h6>These are all the L3VPN in Juniper CSD</h6>
+</div>
+
+
+<div class="table-responsive" id="mytable">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>ID CSD</th>
+        <th>State</th>
+        <th>Client</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for l3vpn in l3vpn_all %}
+        <tr>
+          <td>
+            <a href="{% url 'inventories:l3vpn_one' l3vpn.pk %}">{{ l3vpn.name }}</a>
+          </td>
+          <td>
+            {{ l3vpn.id_csd }}
+          </td>
+          <td>
+            {{ l3vpn.state }}
+          </td>
+          <td>
+            <a href="{% url 'inventories:client_one' l3vpn.client.pk %}">{{ l3vpn.client.name }}</a>
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  </div>
+
+{% endblock content %}

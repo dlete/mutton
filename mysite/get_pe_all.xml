@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Data xmlns="services.schema.networkapi.jmp.juniper.net">
+    <Devices size="127">
+        <Device key="17956946" uri="/api/space/nsas/device-roles/pe-devices/17956946" href="/api/space/nsas/device-roles/pe-devices/17956946">
+            <Common>
+                <Name>core1-blanch</Name>
+                <Identity>17956946</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17598640</MEId>
+        </Device>
+        <Device key="17957235" uri="/api/space/nsas/device-roles/pe-devices/17957235" href="/api/space/nsas/device-roles/pe-devices/17957235">
+            <Common>
+                <Name>core1-cork1</Name>
+                <Identity>17957235</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17602548</MEId>
+        </Device>
+        <Device key="17367686" uri="/api/space/nsas/device-roles/pe-devices/17367686" href="/api/space/nsas/device-roles/pe-devices/17367686">
+            <Common>
+                <Name>core1-cork2</Name>
+                <Identity>17367686</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17468395</MEId>
+        </Device>
+        <Device key="4620345" uri="/api/space/nsas/device-roles/pe-devices/4620345" href="/api/space/nsas/device-roles/pe-devices/4620345">
+            <Common>
+                <Name>core1-cwt</Name>
+                <Identity>4620345</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>4915501</MEId>
+        </Device>
+        <Device key="17957064" uri="/api/space/nsas/device-roles/pe-devices/17957064" href="/api/space/nsas/device-roles/pe-devices/17957064">
+            <Common>
+                <Name>core1-dcu</Name>
+                <Identity>17957064</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17600429</MEId>
+        </Device>
+        <Device key="17957114" uri="/api/space/nsas/device-roles/pe-devices/17957114" href="/api/space/nsas/device-roles/pe-devices/17957114">
+            <Common>
+                <Name>core1-gal1</Name>
+                <Identity>17957114</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17600952</MEId>
+        </Device>
+        <Device key="17957098" uri="/api/space/nsas/device-roles/pe-devices/17957098" href="/api/space/nsas/device-roles/pe-devices/17957098">
+            <Common>
+                <Name>core1-gal2</Name>
+                <Identity>17957098</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17601161</MEId>
+        </Device>
+        <Device key="17957177" uri="/api/space/nsas/device-roles/pe-devices/17957177" href="/api/space/nsas/device-roles/pe-devices/17957177">
+            <Common>
+                <Name>core1-lim1</Name>
+                <Identity>17957177</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17601721</MEId>
+        </Device>
+        <Device key="17957161" uri="/api/space/nsas/device-roles/pe-devices/17957161" href="/api/space/nsas/device-roles/pe-devices/17957161">
+            <Common>
+                <Name>core1-lim2</Name>
+                <Identity>17957161</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17601542</MEId>
+        </Device>
+        <Device key="4620338" uri="/api/space/nsas/device-roles/pe-devices/4620338" href="/api/space/nsas/device-roles/pe-devices/4620338">
+            <Common>
+                <Name>core1-pw</Name>
+                <Identity>4620338</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>4817144</MEId>
+        </Device>
+        <Device key="17367091" uri="/api/space/nsas/device-roles/pe-devices/17367091" href="/api/space/nsas/device-roles/pe-devices/17367091">
+            <Common>
+                <Name>core1-tcd</Name>
+                <Identity>17367091</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17596432</MEId>
+        </Device>
+        <Device key="17367148" uri="/api/space/nsas/device-roles/pe-devices/17367148" href="/api/space/nsas/device-roles/pe-devices/17367148">
+            <Common>
+                <Name>core1-ucd</Name>
+                <Identity>17367148</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17596959</MEId>
+        </Device>
+        <Device key="17367226" uri="/api/space/nsas/device-roles/pe-devices/17367226" href="/api/space/nsas/device-roles/pe-devices/17367226">
+            <Common>
+                <Name>core2-blanch</Name>
+                <Identity>17367226</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17597903</MEId>
+        </Device>
+        <Device key="17367208" uri="/api/space/nsas/device-roles/pe-devices/17367208" href="/api/space/nsas/device-roles/pe-devices/17367208">
+            <Common>
+                <Name>core2-cwt</Name>
+                <Identity>17367208</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17597552</MEId>
+        </Device>
+        <Device key="17957081" uri="/api/space/nsas/device-roles/pe-devices/17957081" href="/api/space/nsas/device-roles/pe-devices/17957081">
+            <Common>
+                <Name>core2-dcu</Name>
+                <Identity>17957081</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17467525</MEId>
+        </Device>
+        <Device key="17367176" uri="/api/space/nsas/device-roles/pe-devices/17367176" href="/api/space/nsas/device-roles/pe-devices/17367176">
+            <Common>
+                <Name>core2-pw</Name>
+                <Identity>17367176</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17597205</MEId>
+        </Device>
+        <Device key="17367119" uri="/api/space/nsas/device-roles/pe-devices/17367119" href="/api/space/nsas/device-roles/pe-devices/17367119">
+            <Common>
+                <Name>core2-tcd</Name>
+                <Identity>17367119</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17596663</MEId>
+        </Device>
+        <Device key="17956929" uri="/api/space/nsas/device-roles/pe-devices/17956929" href="/api/space/nsas/device-roles/pe-devices/17956929">
+            <Common>
+                <Name>core2-ucd</Name>
+                <Identity>17956929</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17598954</MEId>
+        </Device>
+        <Device key="20971533" uri="/api/space/nsas/device-roles/pe-devices/20971533" href="/api/space/nsas/device-roles/pe-devices/20971533">
+            <Common>
+                <Name>dist1-ait1</Name>
+                <Identity>20971533</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>20710187</MEId>
+        </Device>
+        <Device key="19333982" uri="/api/space/nsas/device-roles/pe-devices/19333982" href="/api/space/nsas/device-roles/pe-devices/19333982">
+            <Common>
+                <Name>dist1-ait2</Name>
+                <Identity>19333982</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19080238</MEId>
+        </Device>
+        <Device key="23331089" uri="/api/space/nsas/device-roles/pe-devices/23331089" href="/api/space/nsas/device-roles/pe-devices/23331089">
+            <Common>
+                <Name>dist1-cit1</Name>
+                <Identity>23331089</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23399538</MEId>
+        </Device>
+        <Device key="23331056" uri="/api/space/nsas/device-roles/pe-devices/23331056" href="/api/space/nsas/device-roles/pe-devices/23331056">
+            <Common>
+                <Name>dist1-cit2</Name>
+                <Identity>23331056</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23399356</MEId>
+        </Device>
+        <Device key="19333715" uri="/api/space/nsas/device-roles/pe-devices/19333715" href="/api/space/nsas/device-roles/pe-devices/19333715">
+            <Common>
+                <Name>dist1-dun1</Name>
+                <Identity>19333715</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19076911</MEId>
+        </Device>
+        <Device key="18645956" uri="/api/space/nsas/device-roles/pe-devices/18645956" href="/api/space/nsas/device-roles/pe-devices/18645956">
+            <Common>
+                <Name>dist1-dun2</Name>
+                <Identity>18645956</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>18714182</MEId>
+        </Device>
+        <Device key="21561347" uri="/api/space/nsas/device-roles/pe-devices/21561347" href="/api/space/nsas/device-roles/pe-devices/21561347">
+            <Common>
+                <Name>dist1-gmit1</Name>
+                <Identity>21561347</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>21954623</MEId>
+        </Device>
+        <Device key="21823491" uri="/api/space/nsas/device-roles/pe-devices/21823491" href="/api/space/nsas/device-roles/pe-devices/21823491">
+            <Common>
+                <Name>dist1-gmit2</Name>
+                <Identity>21823491</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>21692503</MEId>
+        </Device>
+        <Device key="6946890" uri="/api/space/nsas/device-roles/pe-devices/6946890" href="/api/space/nsas/device-roles/pe-devices/6946890">
+            <Common>
+                <Name>dist1-itb</Name>
+                <Identity>6946890</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>6685411</MEId>
+        </Device>
+        <Device key="19333430" uri="/api/space/nsas/device-roles/pe-devices/19333430" href="/api/space/nsas/device-roles/pe-devices/19333430">
+            <Common>
+                <Name>dist1-its1</Name>
+                <Identity>19333430</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>18712518</MEId>
+        </Device>
+        <Device key="19333465" uri="/api/space/nsas/device-roles/pe-devices/19333465" href="/api/space/nsas/device-roles/pe-devices/19333465">
+            <Common>
+                <Name>dist1-its2</Name>
+                <Identity>19333465</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19075303</MEId>
+        </Device>
+        <Device key="23625913" uri="/api/space/nsas/device-roles/pe-devices/23625913" href="/api/space/nsas/device-roles/pe-devices/23625913">
+            <Common>
+                <Name>dist1-itt1</Name>
+                <Identity>23625913</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23169269</MEId>
+        </Device>
+        <Device key="23331002" uri="/api/space/nsas/device-roles/pe-devices/23331002" href="/api/space/nsas/device-roles/pe-devices/23331002">
+            <Common>
+                <Name>dist1-itt2</Name>
+                <Identity>23331002</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23399151</MEId>
+        </Device>
+        <Device key="19333851" uri="/api/space/nsas/device-roles/pe-devices/19333851" href="/api/space/nsas/device-roles/pe-devices/19333851">
+            <Common>
+                <Name>dist1-lit1</Name>
+                <Identity>19333851</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>18715814</MEId>
+        </Device>
+        <Device key="18646070" uri="/api/space/nsas/device-roles/pe-devices/18646070" href="/api/space/nsas/device-roles/pe-devices/18646070">
+            <Common>
+                <Name>dist1-lit2</Name>
+                <Identity>18646070</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19077895</MEId>
+        </Device>
+        <Device key="19333500" uri="/api/space/nsas/device-roles/pe-devices/19333500" href="/api/space/nsas/device-roles/pe-devices/19333500">
+            <Common>
+                <Name>dist1-lyit1</Name>
+                <Identity>19333500</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>18712695</MEId>
+        </Device>
+        <Device key="18645801" uri="/api/space/nsas/device-roles/pe-devices/18645801" href="/api/space/nsas/device-roles/pe-devices/18645801">
+            <Common>
+                <Name>dist1-lyit2</Name>
+                <Identity>18645801</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19075480</MEId>
+        </Device>
+        <Device key="19334033" uri="/api/space/nsas/device-roles/pe-devices/19334033" href="/api/space/nsas/device-roles/pe-devices/19334033">
+            <Common>
+                <Name>dist1-qub</Name>
+                <Identity>19334033</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>20710379</MEId>
+        </Device>
+        <Device key="21823675" uri="/api/space/nsas/device-roles/pe-devices/21823675" href="/api/space/nsas/device-roles/pe-devices/21823675">
+            <Common>
+                <Name>dist1-rcsi1</Name>
+                <Identity>21823675</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>21694614</MEId>
+        </Device>
+        <Device key="21561583" uri="/api/space/nsas/device-roles/pe-devices/21561583" href="/api/space/nsas/device-roles/pe-devices/21561583">
+            <Common>
+                <Name>dist1-rcsi2</Name>
+                <Identity>21561583</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>21957251</MEId>
+        </Device>
+        <Device key="19333795" uri="/api/space/nsas/device-roles/pe-devices/19333795" href="/api/space/nsas/device-roles/pe-devices/19333795">
+            <Common>
+                <Name>dist1-testlab</Name>
+                <Identity>19333795</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19077249</MEId>
+        </Device>
+        <Device key="17367715" uri="/api/space/nsas/device-roles/pe-devices/17367715" href="/api/space/nsas/device-roles/pe-devices/17367715">
+            <Common>
+                <Name>dist1-wat-car1</Name>
+                <Identity>17367715</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17602864</MEId>
+        </Device>
+        <Device key="17367713" uri="/api/space/nsas/device-roles/pe-devices/17367713" href="/api/space/nsas/device-roles/pe-devices/17367713">
+            <Common>
+                <Name>dist1-wat1</Name>
+                <Identity>17367713</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17468675</MEId>
+        </Device>
+        <Device key="17367793" uri="/api/space/nsas/device-roles/pe-devices/17367793" href="/api/space/nsas/device-roles/pe-devices/17367793">
+            <Common>
+                <Name>dist1-wat2</Name>
+                <Identity>17367793</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17603055</MEId>
+        </Device>
+        <Device key="17367551" uri="/api/space/nsas/device-roles/pe-devices/17367551" href="/api/space/nsas/device-roles/pe-devices/17367551">
+            <Common>
+                <Name>dist2-itb</Name>
+                <Identity>17367551</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17466683</MEId>
+        </Device>
+        <Device key="21561660" uri="/api/space/nsas/device-roles/pe-devices/21561660" href="/api/space/nsas/device-roles/pe-devices/21561660">
+            <Common>
+                <Name>dist2-testlab</Name>
+                <Identity>21561660</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>21959619</MEId>
+        </Device>
+        <Device key="17367786" uri="/api/space/nsas/device-roles/pe-devices/17367786" href="/api/space/nsas/device-roles/pe-devices/17367786">
+            <Common>
+                <Name>dist2-wat-car1</Name>
+                <Identity>17367786</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17468848</MEId>
+        </Device>
+        <Device key="17956920" uri="/api/space/nsas/device-roles/pe-devices/17956920" href="/api/space/nsas/device-roles/pe-devices/17956920">
+            <Common>
+                <Name>edge1-blanch</Name>
+                <Identity>17956920</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17599152</MEId>
+        </Device>
+        <Device key="21823531" uri="/api/space/nsas/device-roles/pe-devices/21823531" href="/api/space/nsas/device-roles/pe-devices/21823531">
+            <Common>
+                <Name>edge1-cao1</Name>
+                <Identity>21823531</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>21693628</MEId>
+        </Device>
+        <Device key="17957253" uri="/api/space/nsas/device-roles/pe-devices/17957253" href="/api/space/nsas/device-roles/pe-devices/17957253">
+            <Common>
+                <Name>edge1-cork1</Name>
+                <Identity>17957253</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17468590</MEId>
+        </Device>
+        <Device key="17367702" uri="/api/space/nsas/device-roles/pe-devices/17367702" href="/api/space/nsas/device-roles/pe-devices/17367702">
+            <Common>
+                <Name>edge1-cork2</Name>
+                <Identity>17367702</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17602782</MEId>
+        </Device>
+        <Device key="18645714" uri="/api/space/nsas/device-roles/pe-devices/18645714" href="/api/space/nsas/device-roles/pe-devices/18645714">
+            <Common>
+                <Name>edge1-cwt</Name>
+                <Identity>18645714</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17465776</MEId>
+        </Device>
+        <Device key="19333318" uri="/api/space/nsas/device-roles/pe-devices/19333318" href="/api/space/nsas/device-roles/pe-devices/19333318">
+            <Common>
+                <Name>edge1-dcu</Name>
+                <Identity>19333318</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>4818045</MEId>
+        </Device>
+        <Device key="18645752" uri="/api/space/nsas/device-roles/pe-devices/18645752" href="/api/space/nsas/device-roles/pe-devices/18645752">
+            <Common>
+                <Name>edge1-dcu-allhallows</Name>
+                <Identity>18645752</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19073116</MEId>
+        </Device>
+        <Device key="4620591" uri="/api/space/nsas/device-roles/pe-devices/4620591" href="/api/space/nsas/device-roles/pe-devices/4620591">
+            <Common>
+                <Name>edge1-dcu-glasnevin</Name>
+                <Identity>4620591</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>4818227</MEId>
+        </Device>
+        <Device key="19333301" uri="/api/space/nsas/device-roles/pe-devices/19333301" href="/api/space/nsas/device-roles/pe-devices/19333301">
+            <Common>
+                <Name>edge1-dcu-spd1</Name>
+                <Identity>19333301</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19072946</MEId>
+        </Device>
+        <Device key="19333309" uri="/api/space/nsas/device-roles/pe-devices/19333309" href="/api/space/nsas/device-roles/pe-devices/19333309">
+            <Common>
+                <Name>edge1-dcu-spd2</Name>
+                <Identity>19333309</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19073027</MEId>
+        </Device>
+        <Device key="19333346" uri="/api/space/nsas/device-roles/pe-devices/19333346" href="/api/space/nsas/device-roles/pe-devices/19333346">
+            <Common>
+                <Name>edge1-dcu-tonyryan</Name>
+                <Identity>19333346</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19073659</MEId>
+        </Device>
+        <Device key="15761591" uri="/api/space/nsas/device-roles/pe-devices/15761591" href="/api/space/nsas/device-roles/pe-devices/15761591">
+            <Common>
+                <Name>edge1-educampus-cwt</Name>
+                <Identity>15761591</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>16352268</MEId>
+        </Device>
+        <Device key="14778534" uri="/api/space/nsas/device-roles/pe-devices/14778534" href="/api/space/nsas/device-roles/pe-devices/14778534">
+            <Common>
+                <Name>edge1-educampus-santry</Name>
+                <Identity>14778534</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>15335438</MEId>
+        </Device>
+        <Device key="17957142" uri="/api/space/nsas/device-roles/pe-devices/17957142" href="/api/space/nsas/device-roles/pe-devices/17957142">
+            <Common>
+                <Name>edge1-gal1</Name>
+                <Identity>17957142</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17601364</MEId>
+        </Device>
+        <Device key="17957151" uri="/api/space/nsas/device-roles/pe-devices/17957151" href="/api/space/nsas/device-roles/pe-devices/17957151">
+            <Common>
+                <Name>edge1-gal2</Name>
+                <Identity>17957151</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17601442</MEId>
+        </Device>
+        <Device key="21561639" uri="/api/space/nsas/device-roles/pe-devices/21561639" href="/api/space/nsas/device-roles/pe-devices/21561639">
+            <Common>
+                <Name>edge1-gmit-castlebar</Name>
+                <Identity>21561639</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>21959429</MEId>
+        </Device>
+        <Device key="21823721" uri="/api/space/nsas/device-roles/pe-devices/21823721" href="/api/space/nsas/device-roles/pe-devices/21823721">
+            <Common>
+                <Name>edge1-gmit-cm</Name>
+                <Identity>21823721</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>21695374</MEId>
+        </Device>
+        <Device key="21561622" uri="/api/space/nsas/device-roles/pe-devices/21561622" href="/api/space/nsas/device-roles/pe-devices/21561622">
+            <Common>
+                <Name>edge1-gmit-letterfrack</Name>
+                <Identity>21561622</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>21959345</MEId>
+        </Device>
+        <Device key="21823736" uri="/api/space/nsas/device-roles/pe-devices/21823736" href="/api/space/nsas/device-roles/pe-devices/21823736">
+            <Common>
+                <Name>edge1-gmit-ssf</Name>
+                <Identity>21823736</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>21695456</MEId>
+        </Device>
+        <Device key="11010124" uri="/api/space/nsas/device-roles/pe-devices/11010124" href="/api/space/nsas/device-roles/pe-devices/11010124">
+            <Common>
+                <Name>edge1-gn-kp</Name>
+                <Identity>11010124</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>9928819</MEId>
+        </Device>
+        <Device key="23625889" uri="/api/space/nsas/device-roles/pe-devices/23625889" href="/api/space/nsas/device-roles/pe-devices/23625889">
+            <Common>
+                <Name>edge1-hea</Name>
+                <Identity>23625889</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23169088</MEId>
+        </Device>
+        <Device key="21823611" uri="/api/space/nsas/device-roles/pe-devices/21823611" href="/api/space/nsas/device-roles/pe-devices/21823611">
+            <Common>
+                <Name>edge1-ips1</Name>
+                <Identity>21823611</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>21694476</MEId>
+        </Device>
+        <Device key="23330920" uri="/api/space/nsas/device-roles/pe-devices/23330920" href="/api/space/nsas/device-roles/pe-devices/23330920">
+            <Common>
+                <Name>edge1-lcetb</Name>
+                <Identity>23330920</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23398214</MEId>
+        </Device>
+        <Device key="17957204" uri="/api/space/nsas/device-roles/pe-devices/17957204" href="/api/space/nsas/device-roles/pe-devices/17957204">
+            <Common>
+                <Name>edge1-lim1</Name>
+                <Identity>17957204</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17602027</MEId>
+        </Device>
+        <Device key="17957195" uri="/api/space/nsas/device-roles/pe-devices/17957195" href="/api/space/nsas/device-roles/pe-devices/17957195">
+            <Common>
+                <Name>edge1-lim2</Name>
+                <Identity>17957195</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17601948</MEId>
+        </Device>
+        <Device key="23625867" uri="/api/space/nsas/device-roles/pe-devices/23625867" href="/api/space/nsas/device-roles/pe-devices/23625867">
+            <Common>
+                <Name>edge1-lit-clonmel</Name>
+                <Identity>23625867</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23398491</MEId>
+        </Device>
+        <Device key="23625841" uri="/api/space/nsas/device-roles/pe-devices/23625841" href="/api/space/nsas/device-roles/pe-devices/23625841">
+            <Common>
+                <Name>edge1-lit-gq</Name>
+                <Identity>23625841</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23397818</MEId>
+        </Device>
+        <Device key="23330971" uri="/api/space/nsas/device-roles/pe-devices/23330971" href="/api/space/nsas/device-roles/pe-devices/23330971">
+            <Common>
+                <Name>edge1-lit-questum</Name>
+                <Identity>23330971</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23168881</MEId>
+        </Device>
+        <Device key="23625824" uri="/api/space/nsas/device-roles/pe-devices/23625824" href="/api/space/nsas/device-roles/pe-devices/23625824">
+            <Common>
+                <Name>edge1-lit-sad</Name>
+                <Identity>23625824</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23397676</MEId>
+        </Device>
+        <Device key="23330936" uri="/api/space/nsas/device-roles/pe-devices/23330936" href="/api/space/nsas/device-roles/pe-devices/23330936">
+            <Common>
+                <Name>edge1-lit-thurles</Name>
+                <Identity>23330936</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23398369</MEId>
+        </Device>
+        <Device key="19333582" uri="/api/space/nsas/device-roles/pe-devices/19333582" href="/api/space/nsas/device-roles/pe-devices/19333582">
+            <Common>
+                <Name>edge1-lyit-killybegs</Name>
+                <Identity>19333582</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19076337</MEId>
+        </Device>
+        <Device key="19334015" uri="/api/space/nsas/device-roles/pe-devices/19334015" href="/api/space/nsas/device-roles/pe-devices/19334015">
+            <Common>
+                <Name>edge1-mac</Name>
+                <Identity>19334015</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19080431</MEId>
+        </Device>
+        <Device key="21823763" uri="/api/space/nsas/device-roles/pe-devices/21823763" href="/api/space/nsas/device-roles/pe-devices/21823763">
+            <Common>
+                <Name>edge1-mi</Name>
+                <Identity>21823763</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>21959846</MEId>
+        </Device>
+        <Device key="21823779" uri="/api/space/nsas/device-roles/pe-devices/21823779" href="/api/space/nsas/device-roles/pe-devices/21823779">
+            <Common>
+                <Name>edge1-mi-furnace</Name>
+                <Identity>21823779</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>21959927</MEId>
+        </Device>
+        <Device key="21561689" uri="/api/space/nsas/device-roles/pe-devices/21561689" href="/api/space/nsas/device-roles/pe-devices/21561689">
+            <Common>
+                <Name>edge1-mi-smb</Name>
+                <Identity>21561689</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>21695707</MEId>
+        </Device>
+        <Device key="21561722" uri="/api/space/nsas/device-roles/pe-devices/21561722" href="/api/space/nsas/device-roles/pe-devices/21561722">
+            <Common>
+                <Name>edge1-mi-spiddal</Name>
+                <Identity>21561722</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>21695793</MEId>
+        </Device>
+        <Device key="21561705" uri="/api/space/nsas/device-roles/pe-devices/21561705" href="/api/space/nsas/device-roles/pe-devices/21561705">
+            <Common>
+                <Name>edge1-mi-wilton</Name>
+                <Identity>21561705</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>21695627</MEId>
+        </Device>
+        <Device key="23331037" uri="/api/space/nsas/device-roles/pe-devices/23331037" href="/api/space/nsas/device-roles/pe-devices/23331037">
+            <Common>
+                <Name>edge1-nci1</Name>
+                <Identity>23331037</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23169464</MEId>
+        </Device>
+        <Device key="18645857" uri="/api/space/nsas/device-roles/pe-devices/18645857" href="/api/space/nsas/device-roles/pe-devices/18645857">
+            <Common>
+                <Name>edge1-nuig-asng</Name>
+                <Identity>18645857</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>18713178</MEId>
+        </Device>
+        <Device key="18645840" uri="/api/space/nsas/device-roles/pe-devices/18645840" href="/api/space/nsas/device-roles/pe-devices/18645840">
+            <Common>
+                <Name>edge1-nuig-carna</Name>
+                <Identity>18645840</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19075853</MEId>
+        </Device>
+        <Device key="18645874" uri="/api/space/nsas/device-roles/pe-devices/18645874" href="/api/space/nsas/device-roles/pe-devices/18645874">
+            <Common>
+                <Name>edge1-nuig-carraroe</Name>
+                <Identity>18645874</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19075959</MEId>
+        </Device>
+        <Device key="18645910" uri="/api/space/nsas/device-roles/pe-devices/18645910" href="/api/space/nsas/device-roles/pe-devices/18645910">
+            <Common>
+                <Name>edge1-nuig-carron</Name>
+                <Identity>18645910</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19076228</MEId>
+        </Device>
+        <Device key="19333544" uri="/api/space/nsas/device-roles/pe-devices/19333544" href="/api/space/nsas/device-roles/pe-devices/19333544">
+            <Common>
+                <Name>edge1-nuig-cimru</Name>
+                <Identity>19333544</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>18713292</MEId>
+        </Device>
+        <Device key="18645780" uri="/api/space/nsas/device-roles/pe-devices/18645780" href="/api/space/nsas/device-roles/pe-devices/18645780">
+            <Common>
+                <Name>edge1-nuig-csc</Name>
+                <Identity>18645780</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19074993</MEId>
+        </Device>
+        <Device key="19333962" uri="/api/space/nsas/device-roles/pe-devices/19333962" href="/api/space/nsas/device-roles/pe-devices/19333962">
+            <Common>
+                <Name>edge1-nuig-gweedore</Name>
+                <Identity>19333962</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>20709650</MEId>
+        </Device>
+        <Device key="18645928" uri="/api/space/nsas/device-roles/pe-devices/18645928" href="/api/space/nsas/device-roles/pe-devices/18645928">
+            <Common>
+                <Name>edge1-nuig-lgh</Name>
+                <Identity>18645928</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>18713528</MEId>
+        </Device>
+        <Device key="19333617" uri="/api/space/nsas/device-roles/pe-devices/19333617" href="/api/space/nsas/device-roles/pe-devices/19333617">
+            <Common>
+                <Name>edge1-nuig-martinryan</Name>
+                <Identity>19333617</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19076446</MEId>
+        </Device>
+        <Device key="19333600" uri="/api/space/nsas/device-roles/pe-devices/19333600" href="/api/space/nsas/device-roles/pe-devices/19333600">
+            <Common>
+                <Name>edge1-nuig-mhars</Name>
+                <Identity>19333600</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>18713743</MEId>
+        </Device>
+        <Device key="19333394" uri="/api/space/nsas/device-roles/pe-devices/19333394" href="/api/space/nsas/device-roles/pe-devices/19333394">
+            <Common>
+                <Name>edge1-nuig-neb</Name>
+                <Identity>19333394</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19075108</MEId>
+        </Device>
+        <Device key="23625787" uri="/api/space/nsas/device-roles/pe-devices/23625787" href="/api/space/nsas/device-roles/pe-devices/23625787">
+            <Common>
+                <Name>edge1-nuig-shannon</Name>
+                <Identity>23625787</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23397398</MEId>
+        </Device>
+        <Device key="19333564" uri="/api/space/nsas/device-roles/pe-devices/19333564" href="/api/space/nsas/device-roles/pe-devices/19333564">
+            <Common>
+                <Name>edge1-nuig-sma</Name>
+                <Identity>19333564</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19076116</MEId>
+        </Device>
+        <Device key="19333413" uri="/api/space/nsas/device-roles/pe-devices/19333413" href="/api/space/nsas/device-roles/pe-devices/19333413">
+            <Common>
+                <Name>edge1-nuig-srb</Name>
+                <Identity>19333413</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19075203</MEId>
+        </Device>
+        <Device key="18645893" uri="/api/space/nsas/device-roles/pe-devices/18645893" href="/api/space/nsas/device-roles/pe-devices/18645893">
+            <Common>
+                <Name>edge1-nuig-stacs</Name>
+                <Identity>18645893</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>18713411</MEId>
+        </Device>
+        <Device key="23330844" uri="/api/space/nsas/device-roles/pe-devices/23330844" href="/api/space/nsas/device-roles/pe-devices/23330844">
+            <Common>
+                <Name>edge1-pac1</Name>
+                <Identity>23330844</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23396754</MEId>
+        </Device>
+        <Device key="19333329" uri="/api/space/nsas/device-roles/pe-devices/19333329" href="/api/space/nsas/device-roles/pe-devices/19333329">
+            <Common>
+                <Name>edge1-pdst</Name>
+                <Identity>19333329</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19073563</MEId>
+        </Device>
+        <Device key="4620561" uri="/api/space/nsas/device-roles/pe-devices/4620561" href="/api/space/nsas/device-roles/pe-devices/4620561">
+            <Common>
+                <Name>edge1-pw</Name>
+                <Identity>4620561</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>4817937</MEId>
+        </Device>
+        <Device key="4620440" uri="/api/space/nsas/device-roles/pe-devices/4620440" href="/api/space/nsas/device-roles/pe-devices/4620440">
+            <Common>
+                <Name>edge1-qqi-denzille</Name>
+                <Identity>4620440</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>4916132</MEId>
+        </Device>
+        <Device key="9961541" uri="/api/space/nsas/device-roles/pe-devices/9961541" href="/api/space/nsas/device-roles/pe-devices/9961541">
+            <Common>
+                <Name>edge1-qqi-mount</Name>
+                <Identity>9961541</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>9863195</MEId>
+        </Device>
+        <Device key="17956866" uri="/api/space/nsas/device-roles/pe-devices/17956866" href="/api/space/nsas/device-roles/pe-devices/17956866">
+            <Common>
+                <Name>edge1-tcd</Name>
+                <Identity>17956866</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17598234</MEId>
+        </Device>
+        <Device key="18646048" uri="/api/space/nsas/device-roles/pe-devices/18646048" href="/api/space/nsas/device-roles/pe-devices/18646048">
+            <Common>
+                <Name>edge1-tcd-lofar</Name>
+                <Identity>18646048</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>18715327</MEId>
+        </Device>
+        <Device key="15761526" uri="/api/space/nsas/device-roles/pe-devices/15761526" href="/api/space/nsas/device-roles/pe-devices/15761526">
+            <Common>
+                <Name>edge1-testlab</Name>
+                <Identity>15761526</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>16351704</MEId>
+        </Device>
+        <Device key="17956902" uri="/api/space/nsas/device-roles/pe-devices/17956902" href="/api/space/nsas/device-roles/pe-devices/17956902">
+            <Common>
+                <Name>edge1-ucd</Name>
+                <Identity>17956902</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17598555</MEId>
+        </Device>
+        <Device key="19333373" uri="/api/space/nsas/device-roles/pe-devices/19333373" href="/api/space/nsas/device-roles/pe-devices/19333373">
+            <Common>
+                <Name>edge1-ucd-olhsc</Name>
+                <Identity>19333373</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>19074121</MEId>
+        </Device>
+        <Device key="23330883" uri="/api/space/nsas/device-roles/pe-devices/23330883" href="/api/space/nsas/device-roles/pe-devices/23330883">
+            <Common>
+                <Name>edge1-ul-cerc</Name>
+                <Identity>23330883</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23397980</MEId>
+        </Device>
+        <Device key="23330901" uri="/api/space/nsas/device-roles/pe-devices/23330901" href="/api/space/nsas/device-roles/pe-devices/23330901">
+            <Common>
+                <Name>edge1-ul-mic</Name>
+                <Identity>23330901</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23398094</MEId>
+        </Device>
+        <Device key="23625808" uri="/api/space/nsas/device-roles/pe-devices/23625808" href="/api/space/nsas/device-roles/pe-devices/23625808">
+            <Common>
+                <Name>edge1-ul-outreach</Name>
+                <Identity>23625808</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23397562</MEId>
+        </Device>
+        <Device key="23625766" uri="/api/space/nsas/device-roles/pe-devices/23625766" href="/api/space/nsas/device-roles/pe-devices/23625766">
+            <Common>
+                <Name>edge1-ul-portiuncula</Name>
+                <Identity>23625766</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23397195</MEId>
+        </Device>
+        <Device key="23330953" uri="/api/space/nsas/device-roles/pe-devices/23330953" href="/api/space/nsas/device-roles/pe-devices/23330953">
+            <Common>
+                <Name>edge1-ul-spt</Name>
+                <Identity>23330953</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23168775</MEId>
+        </Device>
+        <Device key="23330862" uri="/api/space/nsas/device-roles/pe-devices/23330862" href="/api/space/nsas/device-roles/pe-devices/23330862">
+            <Common>
+                <Name>edge1-ul-troy</Name>
+                <Identity>23330862</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>23397109</MEId>
+        </Device>
+        <Device key="17956911" uri="/api/space/nsas/device-roles/pe-devices/17956911" href="/api/space/nsas/device-roles/pe-devices/17956911">
+            <Common>
+                <Name>edge2-blanch</Name>
+                <Identity>17956911</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17598673</MEId>
+        </Device>
+        <Device key="21823533" uri="/api/space/nsas/device-roles/pe-devices/21823533" href="/api/space/nsas/device-roles/pe-devices/21823533">
+            <Common>
+                <Name>edge2-cao1</Name>
+                <Identity>21823533</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>21956156</MEId>
+        </Device>
+        <Device key="17957214" uri="/api/space/nsas/device-roles/pe-devices/17957214" href="/api/space/nsas/device-roles/pe-devices/17957214">
+            <Common>
+                <Name>edge2-cwt</Name>
+                <Identity>17957214</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17602365</MEId>
+        </Device>
+        <Device key="4620581" uri="/api/space/nsas/device-roles/pe-devices/4620581" href="/api/space/nsas/device-roles/pe-devices/4620581">
+            <Common>
+                <Name>edge2-dcu</Name>
+                <Identity>4620581</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>4818135</MEId>
+        </Device>
+        <Device key="15761607" uri="/api/space/nsas/device-roles/pe-devices/15761607" href="/api/space/nsas/device-roles/pe-devices/15761607">
+            <Common>
+                <Name>edge2-educampus-cwt</Name>
+                <Identity>15761607</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>16352352</MEId>
+        </Device>
+        <Device key="17957224" uri="/api/space/nsas/device-roles/pe-devices/17957224" href="/api/space/nsas/device-roles/pe-devices/17957224">
+            <Common>
+                <Name>edge2-pw</Name>
+                <Identity>17957224</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17602451</MEId>
+        </Device>
+        <Device key="17956875" uri="/api/space/nsas/device-roles/pe-devices/17956875" href="/api/space/nsas/device-roles/pe-devices/17956875">
+            <Common>
+                <Name>edge2-tcd</Name>
+                <Identity>17956875</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17598311</MEId>
+        </Device>
+        <Device key="17956973" uri="/api/space/nsas/device-roles/pe-devices/17956973" href="/api/space/nsas/device-roles/pe-devices/17956973">
+            <Common>
+                <Name>edge2-testlab</Name>
+                <Identity>17956973</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17599258</MEId>
+        </Device>
+        <Device key="17956884" uri="/api/space/nsas/device-roles/pe-devices/17956884" href="/api/space/nsas/device-roles/pe-devices/17956884">
+            <Common>
+                <Name>edge2-ucd</Name>
+                <Identity>17956884</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17598399</MEId>
+        </Device>
+        <Device key="17367254" uri="/api/space/nsas/device-roles/pe-devices/17367254" href="/api/space/nsas/device-roles/pe-devices/17367254">
+            <Common>
+                <Name>edge3-testlab</Name>
+                <Identity>17367254</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>17598145</MEId>
+        </Device>
+        <Device key="19333830" uri="/api/space/nsas/device-roles/pe-devices/19333830" href="/api/space/nsas/device-roles/pe-devices/19333830">
+            <Common>
+                <Name>edge4-testlab</Name>
+                <Identity>19333830</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>18715071</MEId>
+        </Device>
+        <Device key="4620300" uri="/api/space/nsas/device-roles/pe-devices/4620300" href="/api/space/nsas/device-roles/pe-devices/4620300">
+            <Common>
+                <Name>rr1-cwt</Name>
+                <Identity>4620300</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>4915373</MEId>
+        </Device>
+        <Device key="4620293" uri="/api/space/nsas/device-roles/pe-devices/4620293" href="/api/space/nsas/device-roles/pe-devices/4620293">
+            <Common>
+                <Name>rr1-pw</Name>
+                <Identity>4620293</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>4915236</MEId>
+        </Device>
+    </Devices>
+</Data>

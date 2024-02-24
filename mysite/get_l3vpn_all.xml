@@ -1,0 +1,2103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Data xmlns="services.schema.networkapi.jmp.juniper.net">
+    <ServiceResource size="70">
+        <Service key="17308307" uri="/api/space/nsas/l3vpn/service-management/services/17308307" href="/api/space/nsas/l3vpn/service-management/services/17308307">
+            <Common>
+                <Name>dcu.1496657111</Name>
+                <Identity>17308307</Identity>
+                <State>Deployed</State>
+                <Comments>DCU Primary IP Link</Comments>
+                <CreatedDate>2017-06-06T15:19:07.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-06-06T15:52:31.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Up</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>Up</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/17308282" href="/api/space/nsas/l3vpn/service-management/service-orders/17308282" key="17308282"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/17633060" href="/api/space/nsas/l3vpn/service-management/service-definitions/17633060" key="17633060">
+                        <ServiceDefinitionName>HEAnet-IP--eBGP-PE-to-CE-v4-v6</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/17957016" href="/api/space/nsas/customer-management/customers/17957016" key="17957016">
+                    <CustomerName>DCU-Dublin City University</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="17308710" uri="/api/space/nsas/l3vpn/service-management/services/17308710" href="/api/space/nsas/l3vpn/service-management/services/17308710">
+            <Common>
+                <Name>dcu.1496657122</Name>
+                <Identity>17308710</Identity>
+                <State>Deployed</State>
+                <Comments>DCU Backup IP Link</Comments>
+                <CreatedDate>2017-06-06T22:14:35.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-06-06T22:14:35.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Up</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>Up</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/17308685" href="/api/space/nsas/l3vpn/service-management/service-orders/17308685" key="17308685"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/17633060" href="/api/space/nsas/l3vpn/service-management/service-definitions/17633060" key="17633060">
+                        <ServiceDefinitionName>HEAnet-IP--eBGP-PE-to-CE-v4-v6</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/17957016" href="/api/space/nsas/customer-management/customers/17957016" key="17957016">
+                    <CustomerName>DCU-Dublin City University</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19038871" uri="/api/space/nsas/l3vpn/service-management/services/19038871" href="/api/space/nsas/l3vpn/service-management/services/19038871">
+            <Common>
+                <Name>ucd.1499345111</Name>
+                <Identity>19038871</Identity>
+                <State>Deployed</State>
+                <Comments>UCD Primary IP Link</Comments>
+                <CreatedDate>2017-07-10T08:45:16.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-07-10T08:45:16.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Up</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>Up</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19038844" href="/api/space/nsas/l3vpn/service-management/service-orders/19038844" key="19038844"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" href="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" key="19202335">
+                        <ServiceDefinitionName>HEAnet-IP-eBGP-PE-to-CE-v4-v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645011" href="/api/space/nsas/customer-management/customers/18645011" key="18645011">
+                    <CustomerName>UCD</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19038926" uri="/api/space/nsas/l3vpn/service-management/services/19038926" href="/api/space/nsas/l3vpn/service-management/services/19038926">
+            <Common>
+                <Name>tcd.1499345222</Name>
+                <Identity>19038926</Identity>
+                <State>Deployed</State>
+                <Comments>TCD Backup IP Link</Comments>
+                <CreatedDate>2017-07-10T08:47:31.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-07-10T08:47:31.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19038899" href="/api/space/nsas/l3vpn/service-management/service-orders/19038899" key="19038899"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" href="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" key="19202335">
+                        <ServiceDefinitionName>HEAnet-IP-eBGP-PE-to-CE-v4-v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333138" href="/api/space/nsas/customer-management/customers/19333138" key="19333138">
+                    <CustomerName>TCD</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19039009" uri="/api/space/nsas/l3vpn/service-management/services/19039009" href="/api/space/nsas/l3vpn/service-management/services/19039009">
+            <Common>
+                <Name>tcd.1499345111</Name>
+                <Identity>19039009</Identity>
+                <State>Deployed</State>
+                <Comments>TCD Primary Link</Comments>
+                <CreatedDate>2017-07-10T08:54:07.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-07-10T08:54:07.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19038982" href="/api/space/nsas/l3vpn/service-management/service-orders/19038982" key="19038982"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" href="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" key="19202335">
+                        <ServiceDefinitionName>HEAnet-IP-eBGP-PE-to-CE-v4-v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333138" href="/api/space/nsas/customer-management/customers/19333138" key="19333138">
+                    <CustomerName>TCD</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19041349" uri="/api/space/nsas/l3vpn/service-management/services/19041349" href="/api/space/nsas/l3vpn/service-management/services/19041349">
+            <Common>
+                <Name>pdst.1500986722</Name>
+                <Identity>19041349</Identity>
+                <State>Deployed</State>
+                <Comments>PDST Scoilnet IP Link</Comments>
+                <CreatedDate>2017-07-26T12:33:12.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-07-26T12:33:12.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19041335" href="/api/space/nsas/l3vpn/service-management/service-orders/19041335" key="19041335"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19205661" href="/api/space/nsas/l3vpn/service-management/service-definitions/19205661" key="19205661">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333163" href="/api/space/nsas/customer-management/customers/19333163" key="19333163">
+                    <CustomerName>PDST</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19041434" uri="/api/space/nsas/l3vpn/service-management/services/19041434" href="/api/space/nsas/l3vpn/service-management/services/19041434">
+            <Common>
+                <Name>pdst.1500986721</Name>
+                <Identity>19041434</Identity>
+                <State>Deployed</State>
+                <Comments>PDST IP Link</Comments>
+                <CreatedDate>2017-07-26T12:46:04.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-07-26T12:46:04.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19041420" href="/api/space/nsas/l3vpn/service-management/service-orders/19041420" key="19041420"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19205661" href="/api/space/nsas/l3vpn/service-management/service-definitions/19205661" key="19205661">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333163" href="/api/space/nsas/customer-management/customers/19333163" key="19333163">
+                    <CustomerName>PDST</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19042704" uri="/api/space/nsas/l3vpn/service-management/services/19042704" href="/api/space/nsas/l3vpn/service-management/services/19042704">
+            <Common>
+                <Name>educampus.150279400</Name>
+                <Identity>19042704</Identity>
+                <State>Deployed</State>
+                <Comments>L3VPN For Educampus</Comments>
+                <CreatedDate>2017-08-25T06:45:48.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-01-12T13:30:30.000Z</LastUpdatedDate>
+                <InstanceType>vrf</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19042619" href="/api/space/nsas/l3vpn/service-management/service-orders/19042619" key="19042619"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19206295" href="/api/space/nsas/l3vpn/service-management/service-definitions/19206295" key="19206295">
+                        <ServiceDefinitionName>HEAnet-L3VPN-VRRP-two-PE-Hub-and-Spoke-v2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333172" href="/api/space/nsas/customer-management/customers/19333172" key="19333172">
+                    <CustomerName>EDUCAMPUS</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19043343" uri="/api/space/nsas/l3vpn/service-management/services/19043343" href="/api/space/nsas/l3vpn/service-management/services/19043343">
+            <Common>
+                <Name>schools-blanch.ipt.1502808846</Name>
+                <Identity>19043343</Identity>
+                <State>Deployed</State>
+                <Comments>Schools IP Transit Blanch</Comments>
+                <CreatedDate>2017-09-12T10:33:01.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-09-12T10:33:01.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19043320" href="/api/space/nsas/l3vpn/service-management/service-orders/19043320" key="19043320"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" href="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" key="19202335">
+                        <ServiceDefinitionName>HEAnet-IP-eBGP-PE-to-CE-v4-v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333536" href="/api/space/nsas/customer-management/customers/19333536" key="19333536">
+                    <CustomerName>SCHOOLS</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19043389" uri="/api/space/nsas/l3vpn/service-management/services/19043389" href="/api/space/nsas/l3vpn/service-management/services/19043389">
+            <Common>
+                <Name>schools-cwt.ipt.1502808846</Name>
+                <Identity>19043389</Identity>
+                <State>Deployed</State>
+                <Comments>Schools IP Transit CWT</Comments>
+                <CreatedDate>2017-09-12T10:32:55.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-09-12T10:32:55.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19043366" href="/api/space/nsas/l3vpn/service-management/service-orders/19043366" key="19043366"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" href="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" key="19202335">
+                        <ServiceDefinitionName>HEAnet-IP-eBGP-PE-to-CE-v4-v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333536" href="/api/space/nsas/customer-management/customers/19333536" key="19333536">
+                    <CustomerName>SCHOOLS</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19044405" uri="/api/space/nsas/l3vpn/service-management/services/19044405" href="/api/space/nsas/l3vpn/service-management/services/19044405">
+            <Common>
+                <Name>itb1.ipt.1508767872</Name>
+                <Identity>19044405</Identity>
+                <State>Deployed</State>
+                <Comments>ITB IP Transit</Comments>
+                <CreatedDate>2017-10-31T15:47:29.000Z</CreatedDate>
+                <LastUpdatedDate>2017-10-31T15:47:29.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19044366" href="/api/space/nsas/l3vpn/service-management/service-orders/19044366" key="19044366"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333174" href="/api/space/nsas/customer-management/customers/19333174" key="19333174">
+                    <CustomerName>ITB</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19044523" uri="/api/space/nsas/l3vpn/service-management/services/19044523" href="/api/space/nsas/l3vpn/service-management/services/19044523">
+            <Common>
+                <Name>itb2.ipt.1508767896</Name>
+                <Identity>19044523</Identity>
+                <State>Deployed</State>
+                <Comments>ITB IP Transit</Comments>
+                <CreatedDate>2017-10-31T16:26:30.000Z</CreatedDate>
+                <LastUpdatedDate>2017-10-31T16:26:30.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19044484" href="/api/space/nsas/l3vpn/service-management/service-orders/19044484" key="19044484"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333174" href="/api/space/nsas/customer-management/customers/19333174" key="19333174">
+                    <CustomerName>ITB</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19045178" uri="/api/space/nsas/l3vpn/service-management/services/19045178" href="/api/space/nsas/l3vpn/service-management/services/19045178">
+            <Common>
+                <Name>lyit2.ipt.1503927706</Name>
+                <Identity>19045178</Identity>
+                <State>Deployed</State>
+                <Comments>LYIT Secondary IP Link</Comments>
+                <CreatedDate>2017-11-21T12:36:05.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-21T12:36:05.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19045147" href="/api/space/nsas/l3vpn/service-management/service-orders/19045147" key="19045147"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645023" href="/api/space/nsas/customer-management/customers/18645023" key="18645023">
+                    <CustomerName>LYIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19045637" uri="/api/space/nsas/l3vpn/service-management/services/19045637" href="/api/space/nsas/l3vpn/service-management/services/19045637">
+            <Common>
+                <Name>ait1.cip.1504609785</Name>
+                <Identity>19045637</Identity>
+                <State>Deployed</State>
+                <Comments>AIT Commodity IP</Comments>
+                <CreatedDate>2017-11-29T14:31:53.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-29T14:31:53.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19045616" href="/api/space/nsas/l3vpn/service-management/service-orders/19045616" key="19045616"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" href="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" key="19210911">
+                        <ServiceDefinitionName>HEAnet-Commodity-IP-VRRP-v2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645992" href="/api/space/nsas/customer-management/customers/18645992" key="18645992">
+                    <CustomerName>AIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19045679" uri="/api/space/nsas/l3vpn/service-management/services/19045679" href="/api/space/nsas/l3vpn/service-management/services/19045679">
+            <Common>
+                <Name>ait2.cip.1504609785</Name>
+                <Identity>19045679</Identity>
+                <State>Deployed</State>
+                <Comments>AIT Commodity IP</Comments>
+                <CreatedDate>2017-11-29T15:02:49.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-29T15:02:49.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19045658" href="/api/space/nsas/l3vpn/service-management/service-orders/19045658" key="19045658"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" href="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" key="19210911">
+                        <ServiceDefinitionName>HEAnet-Commodity-IP-VRRP-v2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645992" href="/api/space/nsas/customer-management/customers/18645992" key="18645992">
+                    <CustomerName>AIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19045906" uri="/api/space/nsas/l3vpn/service-management/services/19045906" href="/api/space/nsas/l3vpn/service-management/services/19045906">
+            <Common>
+                <Name>ait2.ipt.1504608873</Name>
+                <Identity>19045906</Identity>
+                <State>Deployed</State>
+                <Comments>AIT Planet LAB</Comments>
+                <CreatedDate>2017-11-29T15:12:06.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-29T15:12:06.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19045888" href="/api/space/nsas/l3vpn/service-management/service-orders/19045888" key="19045888"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645992" href="/api/space/nsas/customer-management/customers/18645992" key="18645992">
+                    <CustomerName>AIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19046129" uri="/api/space/nsas/l3vpn/service-management/services/19046129" href="/api/space/nsas/l3vpn/service-management/services/19046129">
+            <Common>
+                <Name>ait1.ipt.1504607864</Name>
+                <Identity>19046129</Identity>
+                <State>Deployed</State>
+                <Comments>AIT SIP Project</Comments>
+                <CreatedDate>2017-11-29T17:31:56.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-29T17:31:56.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19046098" href="/api/space/nsas/l3vpn/service-management/service-orders/19046098" key="19046098"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645992" href="/api/space/nsas/customer-management/customers/18645992" key="18645992">
+                    <CustomerName>AIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19046286" uri="/api/space/nsas/l3vpn/service-management/services/19046286" href="/api/space/nsas/l3vpn/service-management/services/19046286">
+            <Common>
+                <Name>ait2.ipt.1504607864</Name>
+                <Identity>19046286</Identity>
+                <State>Deployed</State>
+                <Comments>AIT SIP Project</Comments>
+                <CreatedDate>2017-11-29T17:48:33.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-29T17:48:33.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19046255" href="/api/space/nsas/l3vpn/service-management/service-orders/19046255" key="19046255"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645992" href="/api/space/nsas/customer-management/customers/18645992" key="18645992">
+                    <CustomerName>AIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19202473" uri="/api/space/nsas/l3vpn/service-management/services/19202473" href="/api/space/nsas/l3vpn/service-management/services/19202473">
+            <Common>
+                <Name>nuig.1499248111</Name>
+                <Identity>19202473</Identity>
+                <State>Deployed</State>
+                <Comments>NUIG Primary IP Link</Comments>
+                <CreatedDate>2017-07-05T17:09:16.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-07-05T17:09:16.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19202446" href="/api/space/nsas/l3vpn/service-management/service-orders/19202446" key="19202446"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" href="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" key="19202335">
+                        <ServiceDefinitionName>HEAnet-IP-eBGP-PE-to-CE-v4-v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19202528" uri="/api/space/nsas/l3vpn/service-management/services/19202528" href="/api/space/nsas/l3vpn/service-management/services/19202528">
+            <Common>
+                <Name>nuig.1499248222</Name>
+                <Identity>19202528</Identity>
+                <State>Deployed</State>
+                <Comments>NUIG Primary Backup Link</Comments>
+                <CreatedDate>2017-07-05T17:08:49.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-07-05T17:08:49.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19202501" href="/api/space/nsas/l3vpn/service-management/service-orders/19202501" key="19202501"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" href="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" key="19202335">
+                        <ServiceDefinitionName>HEAnet-IP-eBGP-PE-to-CE-v4-v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19203555" uri="/api/space/nsas/l3vpn/service-management/services/19203555" href="/api/space/nsas/l3vpn/service-management/services/19203555">
+            <Common>
+                <Name>ucd.1499345222</Name>
+                <Identity>19203555</Identity>
+                <State>Deployed</State>
+                <Comments>UCD Backup IP Link</Comments>
+                <CreatedDate>2017-07-10T08:31:36.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-07-10T08:31:36.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19203528" href="/api/space/nsas/l3vpn/service-management/service-orders/19203528" key="19203528"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" href="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" key="19202335">
+                        <ServiceDefinitionName>HEAnet-IP-eBGP-PE-to-CE-v4-v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645011" href="/api/space/nsas/customer-management/customers/18645011" key="18645011">
+                    <CustomerName>UCD</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19205090" uri="/api/space/nsas/l3vpn/service-management/services/19205090" href="/api/space/nsas/l3vpn/service-management/services/19205090">
+            <Common>
+                <Name>ucc.1499865111</Name>
+                <Identity>19205090</Identity>
+                <State>Deployed</State>
+                <Comments>UCC Primary Link</Comments>
+                <CreatedDate>2017-07-17T15:09:49.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-07-17T15:09:49.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19205063" href="/api/space/nsas/l3vpn/service-management/service-orders/19205063" key="19205063"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" href="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" key="19202335">
+                        <ServiceDefinitionName>HEAnet-IP-eBGP-PE-to-CE-v4-v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645018" href="/api/space/nsas/customer-management/customers/18645018" key="18645018">
+                    <CustomerName>UCC</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19205144" uri="/api/space/nsas/l3vpn/service-management/services/19205144" href="/api/space/nsas/l3vpn/service-management/services/19205144">
+            <Common>
+                <Name>ucc.1499865222</Name>
+                <Identity>19205144</Identity>
+                <State>Deployed</State>
+                <Comments>UCC Backup IP Link</Comments>
+                <CreatedDate>2017-07-17T15:10:17.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-07-17T15:10:17.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19205117" href="/api/space/nsas/l3vpn/service-management/service-orders/19205117" key="19205117"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" href="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" key="19202335">
+                        <ServiceDefinitionName>HEAnet-IP-eBGP-PE-to-CE-v4-v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645018" href="/api/space/nsas/customer-management/customers/18645018" key="18645018">
+                    <CustomerName>UCC</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19205521" uri="/api/space/nsas/l3vpn/service-management/services/19205521" href="/api/space/nsas/l3vpn/service-management/services/19205521">
+            <Common>
+                <Name>ul.1500366111</Name>
+                <Identity>19205521</Identity>
+                <State>Deployed</State>
+                <Comments>UL Primary Link</Comments>
+                <CreatedDate>2017-07-19T13:54:29.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-07-19T13:54:29.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19205494" href="/api/space/nsas/l3vpn/service-management/service-orders/19205494" key="19205494"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" href="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" key="19202335">
+                        <ServiceDefinitionName>HEAnet-IP-eBGP-PE-to-CE-v4-v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333141" href="/api/space/nsas/customer-management/customers/19333141" key="19333141">
+                    <CustomerName>UL</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19205576" uri="/api/space/nsas/l3vpn/service-management/services/19205576" href="/api/space/nsas/l3vpn/service-management/services/19205576">
+            <Common>
+                <Name>ul.1500366222</Name>
+                <Identity>19205576</Identity>
+                <State>Deployed</State>
+                <Comments>UL Backup IP Link</Comments>
+                <CreatedDate>2017-07-19T13:54:53.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-07-19T13:54:53.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19205549" href="/api/space/nsas/l3vpn/service-management/service-orders/19205549" key="19205549"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" href="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" key="19202335">
+                        <ServiceDefinitionName>HEAnet-IP-eBGP-PE-to-CE-v4-v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333141" href="/api/space/nsas/customer-management/customers/19333141" key="19333141">
+                    <CustomerName>UL</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19207619" uri="/api/space/nsas/l3vpn/service-management/services/19207619" href="/api/space/nsas/l3vpn/service-management/services/19207619">
+            <Common>
+                <Name>itb.ipt.1504704919</Name>
+                <Identity>19207619</Identity>
+                <State>Deployed</State>
+                <Comments>ITB 10G IP Transit Service</Comments>
+                <CreatedDate>2017-09-06T16:22:36.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-09-06T16:22:36.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19207592" href="/api/space/nsas/l3vpn/service-management/service-orders/19207592" key="19207592"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19205661" href="/api/space/nsas/l3vpn/service-management/service-definitions/19205661" key="19205661">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333174" href="/api/space/nsas/customer-management/customers/19333174" key="19333174">
+                    <CustomerName>ITB</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19207674" uri="/api/space/nsas/l3vpn/service-management/services/19207674" href="/api/space/nsas/l3vpn/service-management/services/19207674">
+            <Common>
+                <Name>itb.ipt.1504705212</Name>
+                <Identity>19207674</Identity>
+                <State>Deployed</State>
+                <Comments>ITB 10G IP Transit Service</Comments>
+                <CreatedDate>2017-09-06T16:35:30.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-09-06T16:35:30.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Down</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19207647" href="/api/space/nsas/l3vpn/service-management/service-orders/19207647" key="19207647"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19205661" href="/api/space/nsas/l3vpn/service-management/service-definitions/19205661" key="19205661">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333174" href="/api/space/nsas/customer-management/customers/19333174" key="19333174">
+                    <CustomerName>ITB</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19210276" uri="/api/space/nsas/l3vpn/service-management/services/19210276" href="/api/space/nsas/l3vpn/service-management/services/19210276">
+            <Common>
+                <Name>stacs.ipt.1502977189</Name>
+                <Identity>19210276</Identity>
+                <State>Deployed</State>
+                <Comments>(UN) nuig-stacs.ipt.1502977189 STACS IP Transit</Comments>
+                <CreatedDate>2017-09-24T12:36:08.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-09-24T12:56:42.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19210262" href="/api/space/nsas/l3vpn/service-management/service-orders/19210262" key="19210262"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19205661" href="/api/space/nsas/l3vpn/service-management/service-definitions/19205661" key="19205661">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19210409" uri="/api/space/nsas/l3vpn/service-management/services/19210409" href="/api/space/nsas/l3vpn/service-management/services/19210409">
+            <Common>
+                <Name>itb1.cip.1508155507</Name>
+                <Identity>19210409</Identity>
+                <State>Deployed</State>
+                <Comments>ITB Commodity IP</Comments>
+                <CreatedDate>2017-10-18T17:21:32.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-18T17:21:32.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Success</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19210388" href="/api/space/nsas/l3vpn/service-management/service-orders/19210388" key="19210388"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/17304683" href="/api/space/nsas/l3vpn/service-management/service-definitions/17304683" key="17304683">
+                        <ServiceDefinitionName>HEAnet-Commodity-IP-VRRP</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333174" href="/api/space/nsas/customer-management/customers/19333174" key="19333174">
+                    <CustomerName>ITB</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19210451" uri="/api/space/nsas/l3vpn/service-management/services/19210451" href="/api/space/nsas/l3vpn/service-management/services/19210451">
+            <Common>
+                <Name>itb2.cip.1508155517</Name>
+                <Identity>19210451</Identity>
+                <State>Deployed</State>
+                <Comments>ITB Commodity IP</Comments>
+                <CreatedDate>2017-10-18T16:31:47.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-18T16:31:47.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/19210430" href="/api/space/nsas/l3vpn/service-management/service-orders/19210430" key="19210430"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/17304683" href="/api/space/nsas/l3vpn/service-management/service-definitions/17304683" key="17304683">
+                        <ServiceDefinitionName>HEAnet-Commodity-IP-VRRP</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333174" href="/api/space/nsas/customer-management/customers/19333174" key="19333174">
+                    <CustomerName>ITB</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20873837" uri="/api/space/nsas/l3vpn/service-management/services/20873837" href="/api/space/nsas/l3vpn/service-management/services/20873837">
+            <Common>
+                <Name>lyit1.cip.1503931622</Name>
+                <Identity>20873837</Identity>
+                <State>Deployed</State>
+                <Comments>LYIT Commodity IP</Comments>
+                <CreatedDate>2017-11-22T12:23:41.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-22T12:23:41.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/20873858" href="/api/space/nsas/l3vpn/service-management/service-orders/20873858" key="20873858"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" href="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" key="19210911">
+                        <ServiceDefinitionName>HEAnet-Commodity-IP-VRRP-v2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645023" href="/api/space/nsas/customer-management/customers/18645023" key="18645023">
+                    <CustomerName>LYIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20873952" uri="/api/space/nsas/l3vpn/service-management/services/20873952" href="/api/space/nsas/l3vpn/service-management/services/20873952">
+            <Common>
+                <Name>lyit2.cip.1503931641</Name>
+                <Identity>20873952</Identity>
+                <State>Deployed</State>
+                <Comments>Commodity IP Transit</Comments>
+                <CreatedDate>2017-11-22T13:24:32.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-22T18:49:21.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/20873931" href="/api/space/nsas/l3vpn/service-management/service-orders/20873931" key="20873931"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" href="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" key="19210911">
+                        <ServiceDefinitionName>HEAnet-Commodity-IP-VRRP-v2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645023" href="/api/space/nsas/customer-management/customers/18645023" key="18645023">
+                    <CustomerName>LYIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20874065" uri="/api/space/nsas/l3vpn/service-management/services/20874065" href="/api/space/nsas/l3vpn/service-management/services/20874065">
+            <Common>
+                <Name>lyit1.ipt1503927693</Name>
+                <Identity>20874065</Identity>
+                <State>Deployed</State>
+                <Comments>LYIT Primary IP Link</Comments>
+                <CreatedDate>2017-11-22T13:58:34.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-22T13:58:34.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/20874034" href="/api/space/nsas/l3vpn/service-management/service-orders/20874034" key="20874034"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645023" href="/api/space/nsas/customer-management/customers/18645023" key="18645023">
+                    <CustomerName>LYIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20874193" uri="/api/space/nsas/l3vpn/service-management/services/20874193" href="/api/space/nsas/l3vpn/service-management/services/20874193">
+            <Common>
+                <Name>its1.ipt.1509961092</Name>
+                <Identity>20874193</Identity>
+                <State>Deployed</State>
+                <Comments>ITS Primary IP Link</Comments>
+                <CreatedDate>2017-11-27T11:15:49.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-27T11:15:49.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/20874162" href="/api/space/nsas/l3vpn/service-management/service-orders/20874162" key="20874162"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333760" href="/api/space/nsas/customer-management/customers/19333760" key="19333760">
+                    <CustomerName>ITS</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20874304" uri="/api/space/nsas/l3vpn/service-management/services/20874304" href="/api/space/nsas/l3vpn/service-management/services/20874304">
+            <Common>
+                <Name>its2.ipt.1509961094</Name>
+                <Identity>20874304</Identity>
+                <State>Deployed</State>
+                <Comments>ITS Secondary IP Link</Comments>
+                <CreatedDate>2017-11-27T11:30:26.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-27T11:30:26.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/20874273" href="/api/space/nsas/l3vpn/service-management/service-orders/20874273" key="20874273"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333760" href="/api/space/nsas/customer-management/customers/19333760" key="19333760">
+                    <CustomerName>ITS</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20874388" uri="/api/space/nsas/l3vpn/service-management/services/20874388" href="/api/space/nsas/l3vpn/service-management/services/20874388">
+            <Common>
+                <Name>its1.cip.1503306555</Name>
+                <Identity>20874388</Identity>
+                <State>Deployed</State>
+                <Comments>ITS Commodity IP Transit</Comments>
+                <CreatedDate>2017-11-27T11:40:51.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-27T11:40:51.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/20874367" href="/api/space/nsas/l3vpn/service-management/service-orders/20874367" key="20874367"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" href="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" key="19210911">
+                        <ServiceDefinitionName>HEAnet-Commodity-IP-VRRP-v2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333760" href="/api/space/nsas/customer-management/customers/19333760" key="19333760">
+                    <CustomerName>ITS</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20874430" uri="/api/space/nsas/l3vpn/service-management/services/20874430" href="/api/space/nsas/l3vpn/service-management/services/20874430">
+            <Common>
+                <Name>its2.cip.1503306556</Name>
+                <Identity>20874430</Identity>
+                <State>Deployed</State>
+                <Comments>ITS Commodity IP Transit</Comments>
+                <CreatedDate>2017-11-27T11:41:06.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-27T11:41:06.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/20874409" href="/api/space/nsas/l3vpn/service-management/service-orders/20874409" key="20874409"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" href="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" key="19210911">
+                        <ServiceDefinitionName>HEAnet-Commodity-IP-VRRP-v2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333760" href="/api/space/nsas/customer-management/customers/19333760" key="19333760">
+                    <CustomerName>ITS</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20874516" uri="/api/space/nsas/l3vpn/service-management/services/20874516" href="/api/space/nsas/l3vpn/service-management/services/20874516">
+            <Common>
+                <Name>mac.ipt.1506068088</Name>
+                <Identity>20874516</Identity>
+                <State>Deployed</State>
+                <Comments>MAC IP Link</Comments>
+                <CreatedDate>2017-11-29T08:51:39.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-29T08:51:39.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/20874502" href="/api/space/nsas/l3vpn/service-management/service-orders/20874502" key="20874502"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18646027" href="/api/space/nsas/customer-management/customers/18646027" key="18646027">
+                    <CustomerName>MAC</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22216785" uri="/api/space/nsas/l3vpn/service-management/services/22216785" href="/api/space/nsas/l3vpn/service-management/services/22216785">
+            <Common>
+                <Name>dcu-blanch.ipt.1512052473</Name>
+                <Identity>22216785</Identity>
+                <State>Deployed</State>
+                <Comments>IP Transit for DCU from Blanch</Comments>
+                <CreatedDate>2017-12-01T11:22:16.000Z</CreatedDate>
+                <LastUpdatedDate>2017-12-01T11:22:16.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22216758" href="/api/space/nsas/l3vpn/service-management/service-orders/22216758" key="22216758"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" href="/api/space/nsas/l3vpn/service-management/service-definitions/19202335" key="19202335">
+                        <ServiceDefinitionName>HEAnet-IP-eBGP-PE-to-CE-v4-v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333171" href="/api/space/nsas/customer-management/customers/19333171" key="19333171">
+                    <CustomerName>DCU</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22216913" uri="/api/space/nsas/l3vpn/service-management/services/22216913" href="/api/space/nsas/l3vpn/service-management/services/22216913">
+            <Common>
+                <Name>ips1.ipt.1505815591</Name>
+                <Identity>22216913</Identity>
+                <State>Deployed</State>
+                <Comments>IP Transit IPS</Comments>
+                <CreatedDate>2017-12-14T12:54:38.000Z</CreatedDate>
+                <LastUpdatedDate>2017-12-14T12:54:38.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22216892" href="/api/space/nsas/l3vpn/service-management/service-orders/22216892" key="22216892"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333782" href="/api/space/nsas/customer-management/customers/19333782" key="19333782">
+                    <CustomerName>IPS</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22217490" uri="/api/space/nsas/l3vpn/service-management/services/22217490" href="/api/space/nsas/l3vpn/service-management/services/22217490">
+            <Common>
+                <Name>gmit1.ipt.1504791320</Name>
+                <Identity>22217490</Identity>
+                <State>Deployed</State>
+                <Comments>GMIT IP Transit</Comments>
+                <CreatedDate>2018-01-10T16:10:02.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-10T16:10:02.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22217459" href="/api/space/nsas/l3vpn/service-management/service-orders/22217459" key="22217459"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561427" href="/api/space/nsas/customer-management/customers/21561427" key="21561427">
+                    <CustomerName>GMIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22217552" uri="/api/space/nsas/l3vpn/service-management/services/22217552" href="/api/space/nsas/l3vpn/service-management/services/22217552">
+            <Common>
+                <Name>gmit2.ipt.1504791320</Name>
+                <Identity>22217552</Identity>
+                <State>Deployed</State>
+                <Comments>GMIT IP Transit</Comments>
+                <CreatedDate>2018-01-10T16:11:14.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-10T16:11:14.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22217521" href="/api/space/nsas/l3vpn/service-management/service-orders/22217521" key="22217521"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561427" href="/api/space/nsas/customer-management/customers/21561427" key="21561427">
+                    <CustomerName>GMIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22218668" uri="/api/space/nsas/l3vpn/service-management/services/22218668" href="/api/space/nsas/l3vpn/service-management/services/22218668">
+            <Common>
+                <Name>test-vrrp2</Name>
+                <Identity>22218668</Identity>
+                <State>Deployed</State>
+                <CreatedDate>2018-01-23T19:11:02.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-23T19:11:02.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22218620" href="/api/space/nsas/l3vpn/service-management/service-orders/22218620" key="22218620"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/950272" href="/api/space/nsas/customer-management/customers/950272" key="950272">
+                    <CustomerName>TEST-Customer</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22219294" uri="/api/space/nsas/l3vpn/service-management/services/22219294" href="/api/space/nsas/l3vpn/service-management/services/22219294">
+            <Common>
+                <Name>test-vrrp1</Name>
+                <Identity>22219294</Identity>
+                <State>Deployed</State>
+                <CreatedDate>2018-01-23T20:42:37.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-23T20:42:37.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22219246" href="/api/space/nsas/l3vpn/service-management/service-orders/22219246" key="22219246"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/950272" href="/api/space/nsas/customer-management/customers/950272" key="950272">
+                    <CustomerName>TEST-Customer</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22219639" uri="/api/space/nsas/l3vpn/service-management/services/22219639" href="/api/space/nsas/l3vpn/service-management/services/22219639">
+            <Common>
+                <Name>dkit2.ipt.1504606891</Name>
+                <Identity>22219639</Identity>
+                <State>Deployed</State>
+                <Comments>DKIT IP Transit</Comments>
+                <CreatedDate>2018-02-08T07:43:57.000Z</CreatedDate>
+                <LastUpdatedDate>2018-02-08T07:43:57.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22219608" href="/api/space/nsas/l3vpn/service-management/service-orders/22219608" key="22219608"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645020" href="/api/space/nsas/customer-management/customers/18645020" key="18645020">
+                    <CustomerName>DKIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22219795" uri="/api/space/nsas/l3vpn/service-management/services/22219795" href="/api/space/nsas/l3vpn/service-management/services/22219795">
+            <Common>
+                <Name>dkit1.ipt.1504606890</Name>
+                <Identity>22219795</Identity>
+                <State>Deployed</State>
+                <Comments>DKIT IP Transit</Comments>
+                <CreatedDate>2018-02-08T07:52:44.000Z</CreatedDate>
+                <LastUpdatedDate>2018-02-08T07:52:44.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22219764" href="/api/space/nsas/l3vpn/service-management/service-orders/22219764" key="22219764"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645020" href="/api/space/nsas/customer-management/customers/18645020" key="18645020">
+                    <CustomerName>DKIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22220028" uri="/api/space/nsas/l3vpn/service-management/services/22220028" href="/api/space/nsas/l3vpn/service-management/services/22220028">
+            <Common>
+                <Name>dkit2.cip.1504609481</Name>
+                <Identity>22220028</Identity>
+                <State>Deployed</State>
+                <Comments>DKIT Commodity IP Transit</Comments>
+                <CreatedDate>2018-02-08T08:14:01.000Z</CreatedDate>
+                <LastUpdatedDate>2018-02-08T08:14:01.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22220003" href="/api/space/nsas/l3vpn/service-management/service-orders/22220003" key="22220003"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" href="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" key="19210911">
+                        <ServiceDefinitionName>HEAnet-Commodity-IP-VRRP-v2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645020" href="/api/space/nsas/customer-management/customers/18645020" key="18645020">
+                    <CustomerName>DKIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22220124" uri="/api/space/nsas/l3vpn/service-management/services/22220124" href="/api/space/nsas/l3vpn/service-management/services/22220124">
+            <Common>
+                <Name>dkit1.cip.1504609479</Name>
+                <Identity>22220124</Identity>
+                <State>Deployed</State>
+                <Comments>DKIT Commodity IP Transit</Comments>
+                <CreatedDate>2018-02-08T08:19:59.000Z</CreatedDate>
+                <LastUpdatedDate>2018-02-08T08:19:59.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22220099" href="/api/space/nsas/l3vpn/service-management/service-orders/22220099" key="22220099"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" href="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" key="19210911">
+                        <ServiceDefinitionName>HEAnet-Commodity-IP-VRRP-v2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645020" href="/api/space/nsas/customer-management/customers/18645020" key="18645020">
+                    <CustomerName>DKIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22250332" uri="/api/space/nsas/l3vpn/service-management/services/22250332" href="/api/space/nsas/l3vpn/service-management/services/22250332">
+            <Common>
+                <Name>cao2.ipt.1505241157</Name>
+                <Identity>22250332</Identity>
+                <State>Deployed</State>
+                <Comments>CAO IP Transit</Comments>
+                <CreatedDate>2017-12-07T12:41:44.000Z</CreatedDate>
+                <LastUpdatedDate>2017-12-07T12:41:44.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22250305" href="/api/space/nsas/l3vpn/service-management/service-orders/22250305" key="22250305"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645994" href="/api/space/nsas/customer-management/customers/18645994" key="18645994">
+                    <CustomerName>CAO</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22250386" uri="/api/space/nsas/l3vpn/service-management/services/22250386" href="/api/space/nsas/l3vpn/service-management/services/22250386">
+            <Common>
+                <Name>cao1.ipt.1505241146</Name>
+                <Identity>22250386</Identity>
+                <State>Deployed</State>
+                <Comments>CAO IP Transit</Comments>
+                <CreatedDate>2017-12-07T12:42:18.000Z</CreatedDate>
+                <LastUpdatedDate>2017-12-07T12:42:18.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22250359" href="/api/space/nsas/l3vpn/service-management/service-orders/22250359" key="22250359"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645994" href="/api/space/nsas/customer-management/customers/18645994" key="18645994">
+                    <CustomerName>CAO</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22250862" uri="/api/space/nsas/l3vpn/service-management/services/22250862" href="/api/space/nsas/l3vpn/service-management/services/22250862">
+            <Common>
+                <Name>rcsi2.ipt.1505241222</Name>
+                <Identity>22250862</Identity>
+                <State>Deployed</State>
+                <Comments>RCSI IP Transit Secondary</Comments>
+                <CreatedDate>2018-01-03T22:06:12.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-03T22:06:12.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22250831" href="/api/space/nsas/l3vpn/service-management/service-orders/22250831" key="22250831"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561419" href="/api/space/nsas/customer-management/customers/21561419" key="21561419">
+                    <CustomerName>RCSI</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22250924" uri="/api/space/nsas/l3vpn/service-management/services/22250924" href="/api/space/nsas/l3vpn/service-management/services/22250924">
+            <Common>
+                <Name>rcsi1.ipt.1505241111</Name>
+                <Identity>22250924</Identity>
+                <State>Deployed</State>
+                <Comments>RCSI IP Transit Primary</Comments>
+                <CreatedDate>2018-01-03T22:05:31.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-03T22:05:31.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22250893" href="/api/space/nsas/l3vpn/service-management/service-orders/22250893" key="22250893"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561419" href="/api/space/nsas/customer-management/customers/21561419" key="21561419">
+                    <CustomerName>RCSI</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22252287" uri="/api/space/nsas/l3vpn/service-management/services/22252287" href="/api/space/nsas/l3vpn/service-management/services/22252287">
+            <Common>
+                <Name>lit1.cip.1504713098</Name>
+                <Identity>22252287</Identity>
+                <State>Deployed</State>
+                <Comments>LIT Commodity IP Transit</Comments>
+                <CreatedDate>2018-01-08T15:50:28.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-08T15:50:28.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22252266" href="/api/space/nsas/l3vpn/service-management/service-orders/22252266" key="22252266"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" href="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" key="19210911">
+                        <ServiceDefinitionName>HEAnet-Commodity-IP-VRRP-v2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22252351" uri="/api/space/nsas/l3vpn/service-management/services/22252351" href="/api/space/nsas/l3vpn/service-management/services/22252351">
+            <Common>
+                <Name>lit2.cip.1504713098</Name>
+                <Identity>22252351</Identity>
+                <State>Deployed</State>
+                <Comments>LIT Commodity IP Transit</Comments>
+                <CreatedDate>2018-01-08T15:54:48.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-08T15:54:48.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22252330" href="/api/space/nsas/l3vpn/service-management/service-orders/22252330" key="22252330"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" href="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" key="19210911">
+                        <ServiceDefinitionName>HEAnet-Commodity-IP-VRRP-v2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22252609" uri="/api/space/nsas/l3vpn/service-management/services/22252609" href="/api/space/nsas/l3vpn/service-management/services/22252609">
+            <Common>
+                <Name>lit1.ipt.1504712098</Name>
+                <Identity>22252609</Identity>
+                <State>Deployed</State>
+                <Comments>IP Transit LIT</Comments>
+                <CreatedDate>2018-01-08T17:11:37.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-08T17:11:37.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22252578" href="/api/space/nsas/l3vpn/service-management/service-orders/22252578" key="22252578"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22252672" uri="/api/space/nsas/l3vpn/service-management/services/22252672" href="/api/space/nsas/l3vpn/service-management/services/22252672">
+            <Common>
+                <Name>lit2.ipt.1504712098</Name>
+                <Identity>22252672</Identity>
+                <State>Deployed</State>
+                <Comments>IP Transit LIT</Comments>
+                <CreatedDate>2018-01-08T17:11:55.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-08T17:11:55.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22252641" href="/api/space/nsas/l3vpn/service-management/service-orders/22252641" key="22252641"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22253153" uri="/api/space/nsas/l3vpn/service-management/services/22253153" href="/api/space/nsas/l3vpn/service-management/services/22253153">
+            <Common>
+                <Name>gmit1.cip.1504792407</Name>
+                <Identity>22253153</Identity>
+                <State>Deployed</State>
+                <Comments>GMIT Commodity IP Transit - Primary</Comments>
+                <CreatedDate>2018-01-10T09:12:14.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-10T09:12:14.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22253132" href="/api/space/nsas/l3vpn/service-management/service-orders/22253132" key="22253132"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" href="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" key="19210911">
+                        <ServiceDefinitionName>HEAnet-Commodity-IP-VRRP-v2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561427" href="/api/space/nsas/customer-management/customers/21561427" key="21561427">
+                    <CustomerName>GMIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22253195" uri="/api/space/nsas/l3vpn/service-management/services/22253195" href="/api/space/nsas/l3vpn/service-management/services/22253195">
+            <Common>
+                <Name>gmit2.cip.1504792407</Name>
+                <Identity>22253195</Identity>
+                <State>Deployed</State>
+                <Comments>GMIT Commodity IP Transit - Backup</Comments>
+                <CreatedDate>2018-01-10T09:12:31.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-10T09:12:31.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22253174" href="/api/space/nsas/l3vpn/service-management/service-orders/22253174" key="22253174"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" href="/api/space/nsas/l3vpn/service-management/service-definitions/19210911" key="19210911">
+                        <ServiceDefinitionName>HEAnet-Commodity-IP-VRRP-v2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561427" href="/api/space/nsas/customer-management/customers/21561427" key="21561427">
+                    <CustomerName>GMIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22253815" uri="/api/space/nsas/l3vpn/service-management/services/22253815" href="/api/space/nsas/l3vpn/service-management/services/22253815">
+            <Common>
+                <Name>mi.ipt.1505215604</Name>
+                <Identity>22253815</Identity>
+                <State>Deployed</State>
+                <Comments>IP Transit MI</Comments>
+                <CreatedDate>2018-01-25T08:19:59.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-25T08:19:59.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22253798" href="/api/space/nsas/l3vpn/service-management/service-orders/22253798" key="22253798"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/22217720" href="/api/space/nsas/l3vpn/service-management/service-definitions/22217720" key="22217720">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev3</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561418" href="/api/space/nsas/customer-management/customers/21561418" key="21561418">
+                    <CustomerName>MI</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22253898" uri="/api/space/nsas/l3vpn/service-management/services/22253898" href="/api/space/nsas/l3vpn/service-management/services/22253898">
+            <Common>
+                <Name>qqi-denzille.ipt.1493882110</Name>
+                <Identity>22253898</Identity>
+                <State>Deployed</State>
+                <Comments>QQI - Denzille Lane IP Transit</Comments>
+                <CreatedDate>2018-01-30T13:26:57.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-30T13:26:57.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22253884" href="/api/space/nsas/l3vpn/service-management/service-orders/22253884" key="22253884"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333175" href="/api/space/nsas/customer-management/customers/19333175" key="19333175">
+                    <CustomerName>QQI</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22253976" uri="/api/space/nsas/l3vpn/service-management/services/22253976" href="/api/space/nsas/l3vpn/service-management/services/22253976">
+            <Common>
+                <Name>qqi-mount.ipt.1493887004</Name>
+                <Identity>22253976</Identity>
+                <State>Deployed</State>
+                <Comments>QQI Mount St - IP Transit Service</Comments>
+                <CreatedDate>2018-01-30T13:34:20.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-30T13:34:20.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22253962" href="/api/space/nsas/l3vpn/service-management/service-orders/22253962" key="22253962"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333175" href="/api/space/nsas/customer-management/customers/19333175" key="19333175">
+                    <CustomerName>QQI</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22254116" uri="/api/space/nsas/l3vpn/service-management/services/22254116" href="/api/space/nsas/l3vpn/service-management/services/22254116">
+            <Common>
+                <Name>mi-smb.ipt.1505215855</Name>
+                <Identity>22254116</Identity>
+                <State>Deployed</State>
+                <Comments>IP Transit MI-SMB</Comments>
+                <CreatedDate>2018-02-16T13:07:26.000Z</CreatedDate>
+                <LastUpdatedDate>2018-02-16T13:07:26.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Down</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22254102" href="/api/space/nsas/l3vpn/service-management/service-orders/22254102" key="22254102"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561418" href="/api/space/nsas/customer-management/customers/21561418" key="21561418">
+                    <CustomerName>MI</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22254171" uri="/api/space/nsas/l3vpn/service-management/services/22254171" href="/api/space/nsas/l3vpn/service-management/services/22254171">
+            <Common>
+                <Name>mi-wilton.ipt.1505215656</Name>
+                <Identity>22254171</Identity>
+                <State>Deployed</State>
+                <Comments>IP Transit MI Wilton</Comments>
+                <CreatedDate>2018-02-16T13:19:52.000Z</CreatedDate>
+                <LastUpdatedDate>2018-02-16T13:19:52.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Down</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/22254157" href="/api/space/nsas/l3vpn/service-management/service-orders/22254157" key="22254157"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561418" href="/api/space/nsas/customer-management/customers/21561418" key="21561418">
+                    <CustomerName>MI</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23986190" uri="/api/space/nsas/l3vpn/service-management/services/23986190" href="/api/space/nsas/l3vpn/service-management/services/23986190">
+            <Common>
+                <Name>pac1.ipt.1505309028</Name>
+                <Identity>23986190</Identity>
+                <State>Deployed</State>
+                <Comments>IP Transit PAC</Comments>
+                <CreatedDate>2018-03-09T10:32:49.000Z</CreatedDate>
+                <LastUpdatedDate>2018-03-09T10:32:49.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/23986176" href="/api/space/nsas/l3vpn/service-management/service-orders/23986176" key="23986176"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561448" href="/api/space/nsas/customer-management/customers/21561448" key="21561448">
+                    <CustomerName>PAC</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23986297" uri="/api/space/nsas/l3vpn/service-management/services/23986297" href="/api/space/nsas/l3vpn/service-management/services/23986297">
+            <Common>
+                <Name>lit-clonmel.ipt.1517565908</Name>
+                <Identity>23986297</Identity>
+                <State>Deployed</State>
+                <Comments>LIT Clonmel IP Transit</Comments>
+                <CreatedDate>2018-04-06T10:09:03.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-04-06T10:09:03.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/23986283" href="/api/space/nsas/l3vpn/service-management/service-orders/23986283" key="23986283"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23986438" uri="/api/space/nsas/l3vpn/service-management/services/23986438" href="/api/space/nsas/l3vpn/service-management/services/23986438">
+            <Common>
+                <Name>lit-thurles.ipt.1517578892</Name>
+                <Identity>23986438</Identity>
+                <State>Deployed</State>
+                <Comments>IT Thurles IP Transit</Comments>
+                <CreatedDate>2018-04-06T11:27:42.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-04-06T11:27:42.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/23986420" href="/api/space/nsas/l3vpn/service-management/service-orders/23986420" key="23986420"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="24019721" uri="/api/space/nsas/l3vpn/service-management/services/24019721" href="/api/space/nsas/l3vpn/service-management/services/24019721">
+            <Common>
+                <Name>ait1.ipt.1520607870</Name>
+                <Identity>24019721</Identity>
+                <State>Deployed</State>
+                <Comments>(UN) Local Fibre to AIT equipment</Comments>
+                <CreatedDate>2018-03-09T15:16:19.000Z</CreatedDate>
+                <LastUpdatedDate>2018-03-09T15:16:19.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/24019665" href="/api/space/nsas/l3vpn/service-management/service-orders/24019665" key="24019665"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645992" href="/api/space/nsas/customer-management/customers/18645992" key="18645992">
+                    <CustomerName>AIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="24020001" uri="/api/space/nsas/l3vpn/service-management/services/24020001" href="/api/space/nsas/l3vpn/service-management/services/24020001">
+            <Common>
+                <Name>ait2.ipt.1520607870</Name>
+                <Identity>24020001</Identity>
+                <State>Deployed</State>
+                <Comments>(UN) Local Fibre to AIT equipment</Comments>
+                <CreatedDate>2018-03-09T15:31:29.000Z</CreatedDate>
+                <LastUpdatedDate>2018-03-09T15:31:29.000Z</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/24019945" href="/api/space/nsas/l3vpn/service-management/service-orders/24019945" key="24019945"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645992" href="/api/space/nsas/customer-management/customers/18645992" key="18645992">
+                    <CustomerName>AIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="24020075" uri="/api/space/nsas/l3vpn/service-management/services/24020075" href="/api/space/nsas/l3vpn/service-management/services/24020075">
+            <Common>
+                <Name>lcetb.ipt.1517842533</Name>
+                <Identity>24020075</Identity>
+                <State>Deployed</State>
+                <Comments>LCETB IP Transit</Comments>
+                <CreatedDate>2018-03-28T12:24:42.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-03-28T12:24:42.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/24020057" href="/api/space/nsas/l3vpn/service-management/service-orders/24020057" key="24020057"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561452" href="/api/space/nsas/customer-management/customers/21561452" key="21561452">
+                    <CustomerName>LCETB</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="24020222" uri="/api/space/nsas/l3vpn/service-management/services/24020222" href="/api/space/nsas/l3vpn/service-management/services/24020222">
+            <Common>
+                <Name>ul-spt.ipt.1517583630</Name>
+                <Identity>24020222</Identity>
+                <State>Deployed</State>
+                <Comments>UL St. Pats IP Transit</Comments>
+                <CreatedDate>2018-04-05T13:58:38.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-04-05T13:58:38.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/24020204" href="/api/space/nsas/l3vpn/service-management/service-orders/24020204" key="24020204"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" href="/api/space/nsas/l3vpn/service-management/service-definitions/19043976" key="19043976">
+                        <ServiceDefinitionName>HEAnet-IP-Static-PE-to-CEv4v6-Rev2</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333141" href="/api/space/nsas/customer-management/customers/19333141" key="19333141">
+                    <CustomerName>UL</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+    </ServiceResource>
+</Data>

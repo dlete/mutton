@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<div class="alert alert-info" role="alert" id="myheader">
+  <h6><strong>{{ client.name }}</strong> services inventory in Juniper CSD</h6>
+  <p></p>
+  <h6><strong>{{ client.name }}</strong> ELINE breakout</h6>
+  <p>Instances: {{ eline_count }}</p>
+  <p>Price per instance: €{{ eline_price }}</p>
+  <p>Charges: €{{ eline_charges }}</p>
+
+  <h6><strong>{{ client.name }}</strong> L3VPN breakout</h6>
+  <p>Instances: {{ l3vpn_count }}</p>
+  <p>Price per instance: €{{ l3vpn_price }}</p>
+  <p>Charges: €{{ l3vpn_charges }}</p>
+
+  <p><strong>Total charges: €{{ total_charges}}</strong></p>
+</div>
+
+
+<div class="table-responsive" id="mytable">
+  <div class="alert alert-info" role="alert" id="myheader">
+    <h6><strong>{{ client.name }}</strong> ELINE inventory</h6>
+  </div>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>ID CSD</th>
+        <th>State</th>
+        <th>Client</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for eline in eline_all %}
+        <tr>
+          <td>
+            <a href="{% url 'inventories:eline_ldp_one' eline.pk %}">{{ eline.name }}</a>
+          </td>
+          <td>
+            {{ eline.id_csd }}
+          </td>
+          <td>
+            {{ eline.state }}
+          </td>
+          <td>
+            {{ eline.client }}
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<div class="table-responsive" id="mytable">
+  <div class="alert alert-info" role="alert" id="myheader">
+    <h6><strong>{{ client.name }}</strong> L3VPN inventory</h6>
+  </div>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>ID CSD</th>
+        <th>State</th>
+        <th>Client</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for l3vpn in l3vpn_all %}
+        <tr>
+          <td>
+            <a href="{% url 'inventories:l3vpn_one' l3vpn.pk %}">{{ l3vpn.name }}</a>
+          </td>
+          <td>
+            {{ l3vpn.id_csd }}
+          </td>
+          <td>
+            {{ l3vpn.state }}
+          </td>
+          <td>
+            {{ l3vpn.client }}
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% endblock content %}

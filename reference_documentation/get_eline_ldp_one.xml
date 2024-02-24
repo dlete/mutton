@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Data xmlns="services.schema.networkapi.jmp.juniper.net">
+    <ServiceResource>
+        <Service key="17268865" uri="/api/space/nsas/eline-ptp/service-management/services/17268865" href="/api/space/nsas/eline-ptp/service-management/services/17268865">
+            <Common>
+                <Name>Phase3-Traffic-Test</Name>
+                <Identity>17268865</Identity>
+                <State>Deployed</State>
+                <Comments>10Gb/s link to allow traffic testing on the Phase 3 ring</Comments>
+                <CreatedDate>2017-05-29T17:03:54.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-05-29T17:03:54.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <Signalling>LDP</Signalling>
+            <AuditFlag>
+                <FunctionalAudit>Up</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>Up</OverallStatus>
+            </AuditFlag>
+            <endpointcount>0</endpointcount>
+            <ServiceEndPointGroup>
+                <DeviceInfo>
+                    <NA key="17957224" uri="/api/space/nsas/device-roles/pe-devices/17957224" href="/api/space/nsas/device-roles/pe-devices/17957224">
+                        <DeviceName>edge2-pw</DeviceName>
+                        <DeviceID>17957224</DeviceID>
+                        <CMPDeviceID>17170519</CMPDeviceID>
+                    </NA>
+                </DeviceInfo>
+                <ServiceEndPoint>
+                    <InterfaceName>xe-0/0/22.0</InterfaceName>
+                    <InterfaceIndex>510</InterfaceIndex>
+                    <ServiceEndpointConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PTPElineLDPEndPointConfigParameterServiceType">
+                        <EndPointCategory>PTP</EndPointCategory>
+                        <TrafficType>Transport using port</TrafficType>
+                        <PhysicalEncapsulation>ethernet-ccc</PhysicalEncapsulation>
+                        <LogicalEncapsulation>N/A</LogicalEncapsulation>
+                        <StitchingUnit>0</StitchingUnit>
+                        <UNIDescription>N/A</UNIDescription>
+                        <VlanId>0</VlanId>
+                        <MTU>9192</MTU>
+                        <Bandwidth unit="Mbps">0</Bandwidth>
+                    </ServiceEndpointConfiguration>
+                    <ServiceTemplates/>
+                </ServiceEndPoint>
+                <ServiceEndPointGroupParameter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PTPServiceEndpointGroupParameterServiceType">
+                    <PEDevice_LoopBackIP>87.44.48.27</PEDevice_LoopBackIP>
+                    <PEDevice_NeighborIP>87.44.48.26</PEDevice_NeighborIP>
+                </ServiceEndPointGroupParameter>
+            </ServiceEndPointGroup>
+            <ServiceEndPointGroup>
+                <DeviceInfo>
+                    <NA key="17957214" uri="/api/space/nsas/device-roles/pe-devices/17957214" href="/api/space/nsas/device-roles/pe-devices/17957214">
+                        <DeviceName>edge2-cwt</DeviceName>
+                        <DeviceID>17957214</DeviceID>
+                        <CMPDeviceID>17170523</CMPDeviceID>
+                    </NA>
+                </DeviceInfo>
+                <ServiceEndPoint>
+                    <InterfaceName>xe-0/0/22.0</InterfaceName>
+                    <InterfaceIndex>515</InterfaceIndex>
+                    <ServiceEndpointConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PTPElineLDPEndPointConfigParameterServiceType">
+                        <EndPointCategory>PTP</EndPointCategory>
+                        <TrafficType>Transport using port</TrafficType>
+                        <PhysicalEncapsulation>ethernet-ccc</PhysicalEncapsulation>
+                        <LogicalEncapsulation>N/A</LogicalEncapsulation>
+                        <StitchingUnit>0</StitchingUnit>
+                        <UNIDescription>N/A</UNIDescription>
+                        <VlanId>0</VlanId>
+                        <MTU>9192</MTU>
+                        <Bandwidth unit="Mbps">0</Bandwidth>
+                    </ServiceEndpointConfiguration>
+                    <ServiceTemplates/>
+                </ServiceEndPoint>
+                <ServiceEndPointGroupParameter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PTPServiceEndpointGroupParameterServiceType">
+                    <PEDevice_LoopBackIP>87.44.48.26</PEDevice_LoopBackIP>
+                    <PEDevice_NeighborIP>87.44.48.27</PEDevice_NeighborIP>
+                </ServiceEndPointGroupParameter>
+            </ServiceEndPointGroup>
+            <ServiceParameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PTPConfigParameterServiceType">
+                <MTU>9192</MTU>
+                <VCID>3</VCID>
+                <VlanNormalization>Normalization not required</VlanNormalization>
+            </ServiceParameters>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/17268858" href="/api/space/nsas/eline-ptp/service-management/service-orders/17268858" key="17268858"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/950272" href="/api/space/nsas/customer-management/customers/950272" key="950272">
+                    <CustomerName>TEST-Customer</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+    </ServiceResource>
+</Data>

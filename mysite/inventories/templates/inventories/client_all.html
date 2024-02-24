@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<div class="alert alert-info" role="alert" id="myheader">
+  <h6>These are all the Clients in Juniper CSD</h6>
+</div>
+
+
+<div class="table-responsive" id="mytable">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>ID CSD</th>
+        <th>ID ClientDB</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for client in client_all %}
+        <tr>
+          <td>
+            <a href="{% url 'inventories:client_one' client.pk %}">{{ client.name }}</a>
+          </td>
+          <td>
+            {{ client.id_csd }}
+          </td>
+          <td>
+            {{ client.id_cdb }}
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  </div>
+
+{% endblock content %}

@@ -1,0 +1,2642 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Data xmlns="services.schema.networkapi.jmp.juniper.net">
+    <ServiceResource size="91">
+        <Service key="17268865" uri="/api/space/nsas/eline-ptp/service-management/services/17268865" href="/api/space/nsas/eline-ptp/service-management/services/17268865">
+            <Common>
+                <Name>Phase3-Traffic-Test</Name>
+                <Identity>17268865</Identity>
+                <State>Deployed</State>
+                <Comments>10Gb/s link to allow traffic testing on the Phase 3 ring</Comments>
+                <CreatedDate>2017-05-29T17:03:54.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-05-29T17:03:54.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Up</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>Up</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/17268858" href="/api/space/nsas/eline-ptp/service-management/service-orders/17268858" key="17268858"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/950272" href="/api/space/nsas/customer-management/customers/950272" key="950272">
+                    <CustomerName>TEST-Customer</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="18808925" uri="/api/space/nsas/eline-ptp/service-management/services/18808925" href="/api/space/nsas/eline-ptp/service-management/services/18808925">
+            <Common>
+                <Name>dcu-glasnevin.dcu.1500910000</Name>
+                <Identity>18808925</Identity>
+                <State>Deployed</State>
+                <Comments>Eline for DCU from DCU Innovation Alpha Glasnevin</Comments>
+                <CreatedDate>2017-07-24T17:17:13.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-07-24T17:17:13.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/18808918" href="/api/space/nsas/eline-ptp/service-management/service-orders/18808918" key="18808918"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333171" href="/api/space/nsas/customer-management/customers/19333171" key="19333171">
+                    <CustomerName>DCU</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="18809039" uri="/api/space/nsas/eline-ptp/service-management/services/18809039" href="/api/space/nsas/eline-ptp/service-management/services/18809039">
+            <Common>
+                <Name>dcu-spd.dcu.1500974300</Name>
+                <Identity>18809039</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for DCU to St.Patrick's #1</Comments>
+                <CreatedDate>2017-07-25T13:39:09.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-07-25T13:39:09.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/18809032" href="/api/space/nsas/eline-ptp/service-management/service-orders/18809032" key="18809032"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333171" href="/api/space/nsas/customer-management/customers/19333171" key="19333171">
+                    <CustomerName>DCU</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="18809053" uri="/api/space/nsas/eline-ptp/service-management/services/18809053" href="/api/space/nsas/eline-ptp/service-management/services/18809053">
+            <Common>
+                <Name>dcu-spd.dcu.1500974239</Name>
+                <Identity>18809053</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for DCU to St.Patrick's #2</Comments>
+                <CreatedDate>2017-07-25T13:38:56.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-07-25T13:38:56.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/18809046" href="/api/space/nsas/eline-ptp/service-management/service-orders/18809046" key="18809046"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333171" href="/api/space/nsas/customer-management/customers/19333171" key="19333171">
+                    <CustomerName>DCU</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="18809107" uri="/api/space/nsas/eline-ptp/service-management/services/18809107" href="/api/space/nsas/eline-ptp/service-management/services/18809107">
+            <Common>
+                <Name>nuig-neb.nuig.1501510003</Name>
+                <Identity>18809107</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for NUIG</Comments>
+                <CreatedDate>2017-08-02T11:40:14.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-08-02T11:40:14.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/18809100" href="/api/space/nsas/eline-ptp/service-management/service-orders/18809100" key="18809100"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="18809121" uri="/api/space/nsas/eline-ptp/service-management/services/18809121" href="/api/space/nsas/eline-ptp/service-management/services/18809121">
+            <Common>
+                <Name>nuig-srb.nuig.1501518093</Name>
+                <Identity>18809121</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for NUIG-SRB</Comments>
+                <CreatedDate>2017-08-02T14:26:47.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-08-02T14:26:47.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/18809114" href="/api/space/nsas/eline-ptp/service-management/service-orders/18809114" key="18809114"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="18809162" uri="/api/space/nsas/eline-ptp/service-management/services/18809162" href="/api/space/nsas/eline-ptp/service-management/services/18809162">
+            <Common>
+                <Name>nuig-carron.nuig.1502978348</Name>
+                <Identity>18809162</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for carron to NUIG</Comments>
+                <CreatedDate>2017-08-24T17:34:33.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-08-24T17:34:33.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/18809155" href="/api/space/nsas/eline-ptp/service-management/service-orders/18809155" key="18809155"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="18809190" uri="/api/space/nsas/eline-ptp/service-management/services/18809190" href="/api/space/nsas/eline-ptp/service-management/services/18809190">
+            <Common>
+                <Name>nuig-lgh.nuig.1502807754</Name>
+                <Identity>18809190</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for lgh to NUIG</Comments>
+                <CreatedDate>2017-08-25T11:41:31.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-08-25T11:41:31.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/18809183" href="/api/space/nsas/eline-ptp/service-management/service-orders/18809183" key="18809183"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="18809216" uri="/api/space/nsas/eline-ptp/service-management/services/18809216" href="/api/space/nsas/eline-ptp/service-management/services/18809216">
+            <Common>
+                <Name>lyit-killybegs.lyit.1502983595</Name>
+                <Identity>18809216</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for killybegs to lyit</Comments>
+                <CreatedDate>2017-08-25T13:28:22.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-08-25T13:28:22.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/18809209" href="/api/space/nsas/eline-ptp/service-management/service-orders/18809209" key="18809209"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645023" href="/api/space/nsas/customer-management/customers/18645023" key="18645023">
+                    <CustomerName>LYIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19464300" uri="/api/space/nsas/eline-ptp/service-management/services/19464300" href="/api/space/nsas/eline-ptp/service-management/services/19464300">
+            <Common>
+                <Name>dcu-tonyryan.dcu.1501062210</Name>
+                <Identity>19464300</Identity>
+                <State>Deployed</State>
+                <Comments>Eline for DCU from DCU Tony Ryan Citywest</Comments>
+                <CreatedDate>2017-07-27T11:59:57.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-07-27T11:59:57.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19464293" href="/api/space/nsas/eline-ptp/service-management/service-orders/19464293" key="19464293"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333171" href="/api/space/nsas/customer-management/customers/19333171" key="19333171">
+                    <CustomerName>DCU</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19464314" uri="/api/space/nsas/eline-ptp/service-management/services/19464314" href="/api/space/nsas/eline-ptp/service-management/services/19464314">
+            <Common>
+                <Name>ucd-olhsc.ucd.1501172495</Name>
+                <Identity>19464314</Identity>
+                <State>Deployed</State>
+                <Comments>Eline for UCD from OLHSC Crumlin</Comments>
+                <CreatedDate>2017-07-31T12:58:27.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-07-31T12:58:27.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19464307" href="/api/space/nsas/eline-ptp/service-management/service-orders/19464307" key="19464307"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645011" href="/api/space/nsas/customer-management/customers/18645011" key="18645011">
+                    <CustomerName>UCD</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19464400" uri="/api/space/nsas/eline-ptp/service-management/services/19464400" href="/api/space/nsas/eline-ptp/service-management/services/19464400">
+            <Common>
+                <Name>allhallows.dcu.1499864111</Name>
+                <Identity>19464400</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for DCU</Comments>
+                <CreatedDate>2017-08-09T18:51:02.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-08-09T18:51:02.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19464393" href="/api/space/nsas/eline-ptp/service-management/service-orders/19464393" key="19464393"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333171" href="/api/space/nsas/customer-management/customers/19333171" key="19333171">
+                    <CustomerName>DCU</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19464426" uri="/api/space/nsas/eline-ptp/service-management/services/19464426" href="/api/space/nsas/eline-ptp/service-management/services/19464426">
+            <Common>
+                <Name>nuig-carna.nuig.1503065256</Name>
+                <Identity>19464426</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Carna to NUIG</Comments>
+                <CreatedDate>2017-08-22T12:25:05.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-08-22T12:25:05.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19464419" href="/api/space/nsas/eline-ptp/service-management/service-orders/19464419" key="19464419"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19464442" uri="/api/space/nsas/eline-ptp/service-management/services/19464442" href="/api/space/nsas/eline-ptp/service-management/services/19464442">
+            <Common>
+                <Name>nuig-asng.nuig.1502960082</Name>
+                <Identity>19464442</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for asng to NUIG</Comments>
+                <CreatedDate>2017-08-22T13:08:25.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-08-22T13:08:25.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19464435" href="/api/space/nsas/eline-ptp/service-management/service-orders/19464435" key="19464435"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19464468" uri="/api/space/nsas/eline-ptp/service-management/services/19464468" href="/api/space/nsas/eline-ptp/service-management/services/19464468">
+            <Common>
+                <Name>nuig-carrarow.nuig.1502961082</Name>
+                <Identity>19464468</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Carraroe to NUIG</Comments>
+                <CreatedDate>2017-08-22T15:17:07.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-08-22T15:17:07.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19464461" href="/api/space/nsas/eline-ptp/service-management/service-orders/19464461" key="19464461"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19464494" uri="/api/space/nsas/eline-ptp/service-management/services/19464494" href="/api/space/nsas/eline-ptp/service-management/services/19464494">
+            <Common>
+                <Name>nuig-cimru.nuig.1502965979</Name>
+                <Identity>19464494</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for CIMRU to NUIG</Comments>
+                <CreatedDate>2017-08-23T11:52:10.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-08-23T11:52:10.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19464487" href="/api/space/nsas/eline-ptp/service-management/service-orders/19464487" key="19464487"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19464518" uri="/api/space/nsas/eline-ptp/service-management/services/19464518" href="/api/space/nsas/eline-ptp/service-management/services/19464518">
+            <Common>
+                <Name>nuig-sma.nuig.1502810314</Name>
+                <Identity>19464518</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for sma to NUIG</Comments>
+                <CreatedDate>2017-08-24T11:55:29.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-08-24T11:55:29.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Down</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19464511" href="/api/space/nsas/eline-ptp/service-management/service-orders/19464511" key="19464511"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19464568" uri="/api/space/nsas/eline-ptp/service-management/services/19464568" href="/api/space/nsas/eline-ptp/service-management/services/19464568">
+            <Common>
+                <Name>nuig-mhars.nuig.1503910079</Name>
+                <Identity>19464568</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for MHARS to NUIG</Comments>
+                <CreatedDate>2017-08-30T11:53:20.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-08-30T11:53:20.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19464561" href="/api/space/nsas/eline-ptp/service-management/service-orders/19464561" key="19464561"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19464600" uri="/api/space/nsas/eline-ptp/service-management/services/19464600" href="/api/space/nsas/eline-ptp/service-management/services/19464600">
+            <Common>
+                <Name>nuig-martinryan.nuig.1503909191</Name>
+                <Identity>19464600</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Martin Ryan to NUIG</Comments>
+                <CreatedDate>2017-08-30T14:01:28.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-08-30T14:01:28.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Up</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>Up</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19464593" href="/api/space/nsas/eline-ptp/service-management/service-orders/19464593" key="19464593"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19465071" uri="/api/space/nsas/eline-ptp/service-management/services/19465071" href="/api/space/nsas/eline-ptp/service-management/services/19465071">
+            <Common>
+                <Name>nuig-csc.nuig.1507822601</Name>
+                <Identity>19465071</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for NUIG</Comments>
+                <CreatedDate>2017-10-16T11:50:10.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-16T11:50:10.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19465064" href="/api/space/nsas/eline-ptp/service-management/service-orders/19465064" key="19465064"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19465145" uri="/api/space/nsas/eline-ptp/service-management/services/19465145" href="/api/space/nsas/eline-ptp/service-management/services/19465145">
+            <Common>
+                <Name>Graham16.2Test</Name>
+                <Identity>19465145</Identity>
+                <State>Deployed</State>
+                <Comments>Graham16.2Test</Comments>
+                <CreatedDate>2017-11-13T16:08:50.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-13T16:08:50.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Up</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Down</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>Up</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19465138" href="/api/space/nsas/eline-ptp/service-management/service-orders/19465138" key="19465138"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/950272" href="/api/space/nsas/customer-management/customers/950272" key="950272">
+                    <CustomerName>TEST-Customer</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19465349" uri="/api/space/nsas/eline-ptp/service-management/services/19465349" href="/api/space/nsas/eline-ptp/service-management/services/19465349">
+            <Common>
+                <Name>gweedore.nuig1.1502806156</Name>
+                <Identity>19465349</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Gweedore to NUIG</Comments>
+                <CreatedDate>2017-11-23T12:30:43.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-23T12:30:43.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19465342" href="/api/space/nsas/eline-ptp/service-management/service-orders/19465342" key="19465342"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19465486" uri="/api/space/nsas/eline-ptp/service-management/services/19465486" href="/api/space/nsas/eline-ptp/service-management/services/19465486">
+            <Common>
+                <Name>its2.cwt.1503306126</Name>
+                <Identity>19465486</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for ITS-SHS to CWT</Comments>
+                <CreatedDate>2017-11-28T10:41:14.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-28T10:41:14.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19465479" href="/api/space/nsas/eline-ptp/service-management/service-orders/19465479" key="19465479"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333536" href="/api/space/nsas/customer-management/customers/19333536" key="19333536">
+                    <CustomerName>SCHOOLS</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19465502" uri="/api/space/nsas/eline-ptp/service-management/services/19465502" href="/api/space/nsas/eline-ptp/service-management/services/19465502">
+            <Common>
+                <Name>its1.nuig.1503306127</Name>
+                <Identity>19465502</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for ITS-SHS to NUIG</Comments>
+                <CreatedDate>2017-11-28T10:44:29.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-28T10:44:29.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19465495" href="/api/space/nsas/eline-ptp/service-management/service-orders/19465495" key="19465495"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333536" href="/api/space/nsas/customer-management/customers/19333536" key="19333536">
+                    <CustomerName>SCHOOLS</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19465591" uri="/api/space/nsas/eline-ptp/service-management/services/19465591" href="/api/space/nsas/eline-ptp/service-management/services/19465591">
+            <Common>
+                <Name>ait2.cwt.1502726112</Name>
+                <Identity>19465591</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for OrangeNET Citywest</Comments>
+                <CreatedDate>2017-11-29T14:09:52.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-29T18:20:19.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19465580" href="/api/space/nsas/eline-ptp/service-management/service-orders/19465580" key="19465580"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333173" href="/api/space/nsas/customer-management/customers/19333173" key="19333173">
+                    <CustomerName>HEANET</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="19465615" uri="/api/space/nsas/eline-ptp/service-management/services/19465615" href="/api/space/nsas/eline-ptp/service-management/services/19465615">
+            <Common>
+                <Name>ait2.pw.1502726222</Name>
+                <Identity>19465615</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for OrangeNET Parkwest</Comments>
+                <CreatedDate>2017-11-29T14:32:16.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-29T14:32:16.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Down</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19465604" href="/api/space/nsas/eline-ptp/service-management/service-orders/19465604" key="19465604"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333173" href="/api/space/nsas/customer-management/customers/19333173" key="19333173">
+                    <CustomerName>HEANET</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20905995" uri="/api/space/nsas/eline-ptp/service-management/services/20905995" href="/api/space/nsas/eline-ptp/service-management/services/20905995">
+            <Common>
+                <Name>lyit1.kp.1503934282</Name>
+                <Identity>20905995</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for GN</Comments>
+                <CreatedDate>2017-11-21T15:59:31.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-22T18:39:07.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/20905984" href="/api/space/nsas/eline-ptp/service-management/service-orders/20905984" key="20905984"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645023" href="/api/space/nsas/customer-management/customers/18645023" key="18645023">
+                    <CustomerName>LYIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20906017" uri="/api/space/nsas/eline-ptp/service-management/services/20906017" href="/api/space/nsas/eline-ptp/service-management/services/20906017">
+            <Common>
+                <Name>lyit1.kp.1503934685</Name>
+                <Identity>20906017</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for GN</Comments>
+                <CreatedDate>2017-11-21T16:01:55.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-22T11:38:37.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/20906006" href="/api/space/nsas/eline-ptp/service-management/service-orders/20906006" key="20906006"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645023" href="/api/space/nsas/customer-management/customers/18645023" key="18645023">
+                    <CustomerName>LYIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20906055" uri="/api/space/nsas/eline-ptp/service-management/services/20906055" href="/api/space/nsas/eline-ptp/service-management/services/20906055">
+            <Common>
+                <Name>lyit1.kp.1503934690</Name>
+                <Identity>20906055</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for GN</Comments>
+                <CreatedDate>2017-11-21T16:06:20.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-22T18:40:07.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/20906044" href="/api/space/nsas/eline-ptp/service-management/service-orders/20906044" key="20906044"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645023" href="/api/space/nsas/customer-management/customers/18645023" key="18645023">
+                    <CustomerName>LYIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20906093" uri="/api/space/nsas/eline-ptp/service-management/services/20906093" href="/api/space/nsas/eline-ptp/service-management/services/20906093">
+            <Common>
+                <Name>lyit1.kp.1503934705</Name>
+                <Identity>20906093</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for GN</Comments>
+                <CreatedDate>2017-11-21T16:09:08.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-22T18:41:09.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/20906082" href="/api/space/nsas/eline-ptp/service-management/service-orders/20906082" key="20906082"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645023" href="/api/space/nsas/customer-management/customers/18645023" key="18645023">
+                    <CustomerName>LYIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20906111" uri="/api/space/nsas/eline-ptp/service-management/services/20906111" href="/api/space/nsas/eline-ptp/service-management/services/20906111">
+            <Common>
+                <Name>lyit2.cwt.1503931569</Name>
+                <Identity>20906111</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for lyit SHS to CWT</Comments>
+                <CreatedDate>2017-11-22T07:23:56.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-22T07:23:56.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/20906104" href="/api/space/nsas/eline-ptp/service-management/service-orders/20906104" key="20906104"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333536" href="/api/space/nsas/customer-management/customers/19333536" key="19333536">
+                    <CustomerName>SCHOOLS</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20906127" uri="/api/space/nsas/eline-ptp/service-management/services/20906127" href="/api/space/nsas/eline-ptp/service-management/services/20906127">
+            <Common>
+                <Name>lyit1.nuig.1503930592</Name>
+                <Identity>20906127</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Schools SHS NUIG-LYIT</Comments>
+                <CreatedDate>2017-11-22T07:24:13.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-22T18:41:47.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/20906120" href="/api/space/nsas/eline-ptp/service-management/service-orders/20906120" key="20906120"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333536" href="/api/space/nsas/customer-management/customers/19333536" key="19333536">
+                    <CustomerName>SCHOOLS</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20906221" uri="/api/space/nsas/eline-ptp/service-management/services/20906221" href="/api/space/nsas/eline-ptp/service-management/services/20906221">
+            <Common>
+                <Name>lyit1.cwt.1503933350</Name>
+                <Identity>20906221</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for OrangeNET Citywest</Comments>
+                <CreatedDate>2017-11-22T11:18:48.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-22T11:36:11.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/20906210" href="/api/space/nsas/eline-ptp/service-management/service-orders/20906210" key="20906210"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333173" href="/api/space/nsas/customer-management/customers/19333173" key="19333173">
+                    <CustomerName>HEANET</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20906360" uri="/api/space/nsas/eline-ptp/service-management/services/20906360" href="/api/space/nsas/eline-ptp/service-management/services/20906360">
+            <Common>
+                <Name>dun1.pw.1509632964</Name>
+                <Identity>20906360</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for OrangeNET Parkwest</Comments>
+                <CreatedDate>2017-11-23T11:43:05.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-23T11:43:05.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/20906349" href="/api/space/nsas/eline-ptp/service-management/service-orders/20906349" key="20906349"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333173" href="/api/space/nsas/customer-management/customers/19333173" key="19333173">
+                    <CustomerName>HEANET</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20906382" uri="/api/space/nsas/eline-ptp/service-management/services/20906382" href="/api/space/nsas/eline-ptp/service-management/services/20906382">
+            <Common>
+                <Name>lyit1.pw.1503933433</Name>
+                <Identity>20906382</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for OrangeNET Parkwest</Comments>
+                <CreatedDate>2017-11-23T11:44:00.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-23T11:44:00.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/20906371" href="/api/space/nsas/eline-ptp/service-management/service-orders/20906371" key="20906371"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333173" href="/api/space/nsas/customer-management/customers/19333173" key="19333173">
+                    <CustomerName>HEANET</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20906453" uri="/api/space/nsas/eline-ptp/service-management/services/20906453" href="/api/space/nsas/eline-ptp/service-management/services/20906453">
+            <Common>
+                <Name>dun1.cwt.1504619205</Name>
+                <Identity>20906453</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for OrangeNET Citywest</Comments>
+                <CreatedDate>2017-11-23T12:01:00.000Z</CreatedDate>
+                <LastUpdatedDate>2018-02-02T14:04:21.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/20906442" href="/api/space/nsas/eline-ptp/service-management/service-orders/20906442" key="20906442"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333173" href="/api/space/nsas/customer-management/customers/19333173" key="19333173">
+                    <CustomerName>HEANET</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20906519" uri="/api/space/nsas/eline-ptp/service-management/services/20906519" href="/api/space/nsas/eline-ptp/service-management/services/20906519">
+            <Common>
+                <Name>ait1.blanch.1502717542</Name>
+                <Identity>20906519</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for AIT Schools</Comments>
+                <CreatedDate>2017-11-29T14:33:11.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-29T14:33:11.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/20906512" href="/api/space/nsas/eline-ptp/service-management/service-orders/20906512" key="20906512"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333536" href="/api/space/nsas/customer-management/customers/19333536" key="19333536">
+                    <CustomerName>SCHOOLS</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="20906535" uri="/api/space/nsas/eline-ptp/service-management/services/20906535" href="/api/space/nsas/eline-ptp/service-management/services/20906535">
+            <Common>
+                <Name>ait1.gal1.1502716785</Name>
+                <Identity>20906535</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for AIT-SHS to NUIG</Comments>
+                <CreatedDate>2017-11-29T14:32:40.000Z</CreatedDate>
+                <LastUpdatedDate>2017-11-29T14:32:40.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/20906528" href="/api/space/nsas/eline-ptp/service-management/service-orders/20906528" key="20906528"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333536" href="/api/space/nsas/customer-management/customers/19333536" key="19333536">
+                    <CustomerName>SCHOOLS</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22478868" uri="/api/space/nsas/eline-ptp/service-management/services/22478868" href="/api/space/nsas/eline-ptp/service-management/services/22478868">
+            <Common>
+                <Name>allhallows.dcu.1499864333</Name>
+                <Identity>22478868</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for DCU to All-Hallows</Comments>
+                <CreatedDate>2017-12-07T10:31:07.000Z</CreatedDate>
+                <LastUpdatedDate>2017-12-07T10:31:07.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22478861" href="/api/space/nsas/eline-ptp/service-management/service-orders/22478861" key="22478861"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333171" href="/api/space/nsas/customer-management/customers/19333171" key="19333171">
+                    <CustomerName>DCU</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22478918" uri="/api/space/nsas/eline-ptp/service-management/services/22478918" href="/api/space/nsas/eline-ptp/service-management/services/22478918">
+            <Common>
+                <Name>rcsi2.pw.1505241613</Name>
+                <Identity>22478918</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for RCSI to PW</Comments>
+                <CreatedDate>2018-01-03T15:44:50.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-03T15:44:50.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22478911" href="/api/space/nsas/eline-ptp/service-management/service-orders/22478911" key="22478911"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561419" href="/api/space/nsas/customer-management/customers/21561419" key="21561419">
+                    <CustomerName>RCSI</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22479166" uri="/api/space/nsas/eline-ptp/service-management/services/22479166" href="/api/space/nsas/eline-ptp/service-management/services/22479166">
+            <Common>
+                <Name>lit1.kp.1504616825</Name>
+                <Identity>22479166</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point-to-point for GN</Comments>
+                <CreatedDate>2018-01-08T16:07:53.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-08T16:07:53.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22478931" href="/api/space/nsas/eline-ptp/service-management/service-orders/22478931" key="22478931"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22479636" uri="/api/space/nsas/eline-ptp/service-management/services/22479636" href="/api/space/nsas/eline-ptp/service-management/services/22479636">
+            <Common>
+                <Name>lit1.kp.1504714431</Name>
+                <Identity>22479636</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point-to-point for GN</Comments>
+                <CreatedDate>2018-01-08T16:11:57.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-08T16:11:57.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22479401" href="/api/space/nsas/eline-ptp/service-management/service-orders/22479401" key="22479401"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22480106" uri="/api/space/nsas/eline-ptp/service-management/services/22480106" href="/api/space/nsas/eline-ptp/service-management/services/22480106">
+            <Common>
+                <Name>lit1.kp.1504714435</Name>
+                <Identity>22480106</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point-to-point for GN</Comments>
+                <CreatedDate>2018-01-08T16:51:06.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-08T16:51:06.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22479871" href="/api/space/nsas/eline-ptp/service-management/service-orders/22479871" key="22479871"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22480583" uri="/api/space/nsas/eline-ptp/service-management/services/22480583" href="/api/space/nsas/eline-ptp/service-management/services/22480583">
+            <Common>
+                <Name>gmit1.gal1.1515677967</Name>
+                <Identity>22480583</Identity>
+                <State>Deployed</State>
+                <Comments>GMIT Remotes NN E-Line</Comments>
+                <CreatedDate>2018-01-11T13:52:15.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-11T13:52:15.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22480576" href="/api/space/nsas/eline-ptp/service-management/service-orders/22480576" key="22480576"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561427" href="/api/space/nsas/customer-management/customers/21561427" key="21561427">
+                    <CustomerName>GMIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22480623" uri="/api/space/nsas/eline-ptp/service-management/services/22480623" href="/api/space/nsas/eline-ptp/service-management/services/22480623">
+            <Common>
+                <Name>mi-wilton.mi.1505221129</Name>
+                <Identity>22480623</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Wilton to MI</Comments>
+                <CreatedDate>2018-01-25T07:40:05.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-25T07:40:05.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22480616" href="/api/space/nsas/eline-ptp/service-management/service-orders/22480616" key="22480616"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561418" href="/api/space/nsas/customer-management/customers/21561418" key="21561418">
+                    <CustomerName>MI</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22480673" uri="/api/space/nsas/eline-ptp/service-management/services/22480673" href="/api/space/nsas/eline-ptp/service-management/services/22480673">
+            <Common>
+                <Name>mi-spiddal.mi.1505221138</Name>
+                <Identity>22480673</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Spiddal to MI</Comments>
+                <CreatedDate>2018-01-25T08:12:17.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-25T08:12:17.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22480666" href="/api/space/nsas/eline-ptp/service-management/service-orders/22480666" key="22480666"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561418" href="/api/space/nsas/customer-management/customers/21561418" key="21561418">
+                    <CustomerName>MI</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22480701" uri="/api/space/nsas/eline-ptp/service-management/services/22480701" href="/api/space/nsas/eline-ptp/service-management/services/22480701">
+            <Common>
+                <Name>mi.kp.1505219339</Name>
+                <Identity>22480701</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for GN</Comments>
+                <CreatedDate>2018-01-25T08:27:59.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-25T08:27:59.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22480690" href="/api/space/nsas/eline-ptp/service-management/service-orders/22480690" key="22480690"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561418" href="/api/space/nsas/customer-management/customers/21561418" key="21561418">
+                    <CustomerName>MI</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22480737" uri="/api/space/nsas/eline-ptp/service-management/services/22480737" href="/api/space/nsas/eline-ptp/service-management/services/22480737">
+            <Common>
+                <Name>mi.kp.1505219341</Name>
+                <Identity>22480737</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for GN</Comments>
+                <CreatedDate>2018-01-25T08:30:53.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-25T08:30:53.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22480726" href="/api/space/nsas/eline-ptp/service-management/service-orders/22480726" key="22480726"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561418" href="/api/space/nsas/customer-management/customers/21561418" key="21561418">
+                    <CustomerName>MI</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22480769" uri="/api/space/nsas/eline-ptp/service-management/services/22480769" href="/api/space/nsas/eline-ptp/service-management/services/22480769">
+            <Common>
+                <Name>pw.cwt.1510835774</Name>
+                <Identity>22480769</Identity>
+                <State>Deployed</State>
+                <Comments>Eline P2P for Schools Dublin Core Ring</Comments>
+                <CreatedDate>2018-01-26T15:32:49.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-26T15:32:49.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22480762" href="/api/space/nsas/eline-ptp/service-management/service-orders/22480762" key="22480762"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333536" href="/api/space/nsas/customer-management/customers/19333536" key="19333536">
+                    <CustomerName>SCHOOLS</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22480795" uri="/api/space/nsas/eline-ptp/service-management/services/22480795" href="/api/space/nsas/eline-ptp/service-management/services/22480795">
+            <Common>
+                <Name>cwt.blanch.1510835773</Name>
+                <Identity>22480795</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Schools Dublin Core Ring</Comments>
+                <CreatedDate>2018-01-29T14:30:21.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-29T14:30:21.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22480788" href="/api/space/nsas/eline-ptp/service-management/service-orders/22480788" key="22480788"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333536" href="/api/space/nsas/customer-management/customers/19333536" key="19333536">
+                    <CustomerName>SCHOOLS</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22480809" uri="/api/space/nsas/eline-ptp/service-management/services/22480809" href="/api/space/nsas/eline-ptp/service-management/services/22480809">
+            <Common>
+                <Name>blanch.pw.1510835772</Name>
+                <Identity>22480809</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Schools Dublin Core Ring</Comments>
+                <CreatedDate>2018-01-29T14:48:13.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-29T14:48:13.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22480802" href="/api/space/nsas/eline-ptp/service-management/service-orders/22480802" key="22480802"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333536" href="/api/space/nsas/customer-management/customers/19333536" key="19333536">
+                    <CustomerName>SCHOOLS</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22480846" uri="/api/space/nsas/eline-ptp/service-management/services/22480846" href="/api/space/nsas/eline-ptp/service-management/services/22480846">
+            <Common>
+                <Name>qqi-denzille.kp.1493882721</Name>
+                <Identity>22480846</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for GN</Comments>
+                <CreatedDate>2018-01-30T13:08:49.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-30T13:08:49.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22480835" href="/api/space/nsas/eline-ptp/service-management/service-orders/22480835" key="22480835"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333175" href="/api/space/nsas/customer-management/customers/19333175" key="19333175">
+                    <CustomerName>QQI</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22480992" uri="/api/space/nsas/eline-ptp/service-management/services/22480992" href="/api/space/nsas/eline-ptp/service-management/services/22480992">
+            <Common>
+                <Name>qqi-denzille.kp.1493883305</Name>
+                <Identity>22480992</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for GN</Comments>
+                <CreatedDate>2018-01-30T14:08:29.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-30T14:08:29.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Down</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22481003" href="/api/space/nsas/eline-ptp/service-management/service-orders/22481003" key="22481003"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333175" href="/api/space/nsas/customer-management/customers/19333175" key="19333175">
+                    <CustomerName>QQI</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22481155" uri="/api/space/nsas/eline-ptp/service-management/services/22481155" href="/api/space/nsas/eline-ptp/service-management/services/22481155">
+            <Common>
+                <Name>mi-furnace.mi.1505221040</Name>
+                <Identity>22481155</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Furnace to MI</Comments>
+                <CreatedDate>2018-02-21T13:47:48.000Z</CreatedDate>
+                <LastUpdatedDate>2018-02-21T13:47:48.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22481148" href="/api/space/nsas/eline-ptp/service-management/service-orders/22481148" key="22481148"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561418" href="/api/space/nsas/customer-management/customers/21561418" key="21561418">
+                    <CustomerName>MI</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22511637" uri="/api/space/nsas/eline-ptp/service-management/services/22511637" href="/api/space/nsas/eline-ptp/service-management/services/22511637">
+            <Common>
+                <Name>testlab.1512658986</Name>
+                <Identity>22511637</Identity>
+                <State>Deployed</State>
+                <CreatedDate>2017-12-07T15:12:07.000Z</CreatedDate>
+                <LastUpdatedDate>2017-12-07T15:12:07.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22511626" href="/api/space/nsas/eline-ptp/service-management/service-orders/22511626" key="22511626"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/950272" href="/api/space/nsas/customer-management/customers/950272" key="950272">
+                    <CustomerName>TEST-Customer</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22511655" uri="/api/space/nsas/eline-ptp/service-management/services/22511655" href="/api/space/nsas/eline-ptp/service-management/services/22511655">
+            <Common>
+                <Name>Graham17.2-Testlab</Name>
+                <Identity>22511655</Identity>
+                <State>Deployed</State>
+                <Comments>Graham17.2-Testlab</Comments>
+                <CreatedDate>2017-12-12T16:52:38.000Z</CreatedDate>
+                <LastUpdatedDate>2017-12-12T16:52:38.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22511648" href="/api/space/nsas/eline-ptp/service-management/service-orders/22511648" key="22511648"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16711765" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16711765" key="16711765">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/950272" href="/api/space/nsas/customer-management/customers/950272" key="950272">
+                    <CustomerName>TEST-Customer</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22511710" uri="/api/space/nsas/eline-ptp/service-management/services/22511710" href="/api/space/nsas/eline-ptp/service-management/services/22511710">
+            <Common>
+                <Name>rcsi1.pw.1505241604</Name>
+                <Identity>22511710</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for RCSI to PW</Comments>
+                <CreatedDate>2018-01-04T11:11:23.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-04T11:11:23.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22511703" href="/api/space/nsas/eline-ptp/service-management/service-orders/22511703" key="22511703"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561419" href="/api/space/nsas/customer-management/customers/21561419" key="21561419">
+                    <CustomerName>RCSI</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22512220" uri="/api/space/nsas/eline-ptp/service-management/services/22512220" href="/api/space/nsas/eline-ptp/service-management/services/22512220">
+            <Common>
+                <Name>gmit-cm.gmit1.1504867058</Name>
+                <Identity>22512220</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Cluain Mhuire to GMIT</Comments>
+                <CreatedDate>2018-01-12T13:05:55.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-12T13:05:55.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22512213" href="/api/space/nsas/eline-ptp/service-management/service-orders/22512213" key="22512213"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561427" href="/api/space/nsas/customer-management/customers/21561427" key="21561427">
+                    <CustomerName>GMIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22512236" uri="/api/space/nsas/eline-ptp/service-management/services/22512236" href="/api/space/nsas/eline-ptp/service-management/services/22512236">
+            <Common>
+                <Name>gmit-ssf.gmit1.1513607848</Name>
+                <Identity>22512236</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for GMIT SSF to GMIT</Comments>
+                <CreatedDate>2018-01-12T13:06:11.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-12T13:06:11.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22512229" href="/api/space/nsas/eline-ptp/service-management/service-orders/22512229" key="22512229"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561427" href="/api/space/nsas/customer-management/customers/21561427" key="21561427">
+                    <CustomerName>GMIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22512252" uri="/api/space/nsas/eline-ptp/service-management/services/22512252" href="/api/space/nsas/eline-ptp/service-management/services/22512252">
+            <Common>
+                <Name>gmit-castlebar.gmit1.1504864122</Name>
+                <Identity>22512252</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Castlebar to GMIT</Comments>
+                <CreatedDate>2018-01-12T13:06:32.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-12T13:06:32.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22512245" href="/api/space/nsas/eline-ptp/service-management/service-orders/22512245" key="22512245"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561427" href="/api/space/nsas/customer-management/customers/21561427" key="21561427">
+                    <CustomerName>GMIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22512268" uri="/api/space/nsas/eline-ptp/service-management/services/22512268" href="/api/space/nsas/eline-ptp/service-management/services/22512268">
+            <Common>
+                <Name>gmit-castlebar.gal1.1504864125</Name>
+                <Identity>22512268</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for MMA to NUIG</Comments>
+                <CreatedDate>2018-01-12T13:06:22.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-12T13:06:22.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22512261" href="/api/space/nsas/eline-ptp/service-management/service-orders/22512261" key="22512261"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22512282" uri="/api/space/nsas/eline-ptp/service-management/services/22512282" href="/api/space/nsas/eline-ptp/service-management/services/22512282">
+            <Common>
+                <Name>gmit-letterfrack.gmit1.1504865538</Name>
+                <Identity>22512282</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Letterfrack to GMIT</Comments>
+                <CreatedDate>2018-01-12T13:06:48.000Z</CreatedDate>
+                <LastUpdatedDate>2018-01-12T13:06:48.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22512275" href="/api/space/nsas/eline-ptp/service-management/service-orders/22512275" key="22512275"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561427" href="/api/space/nsas/customer-management/customers/21561427" key="21561427">
+                    <CustomerName>GMIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22512399" uri="/api/space/nsas/eline-ptp/service-management/services/22512399" href="/api/space/nsas/eline-ptp/service-management/services/22512399">
+            <Common>
+                <Name>itb1.kp.1490261522</Name>
+                <Identity>22512399</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for GN</Comments>
+                <CreatedDate>2018-02-01T08:13:57.000Z</CreatedDate>
+                <LastUpdatedDate>2018-02-01T08:13:57.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Down</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22512388" href="/api/space/nsas/eline-ptp/service-management/service-orders/22512388" key="22512388"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333174" href="/api/space/nsas/customer-management/customers/19333174" key="19333174">
+                    <CustomerName>ITB</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22512440" uri="/api/space/nsas/eline-ptp/service-management/services/22512440" href="/api/space/nsas/eline-ptp/service-management/services/22512440">
+            <Common>
+                <Name>itb1.kp.1490261979</Name>
+                <Identity>22512440</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for GN</Comments>
+                <CreatedDate>2018-02-01T08:19:35.000Z</CreatedDate>
+                <LastUpdatedDate>2018-02-01T08:19:35.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22512429" href="/api/space/nsas/eline-ptp/service-management/service-orders/22512429" key="22512429"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333174" href="/api/space/nsas/customer-management/customers/19333174" key="19333174">
+                    <CustomerName>ITB</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22512481" uri="/api/space/nsas/eline-ptp/service-management/services/22512481" href="/api/space/nsas/eline-ptp/service-management/services/22512481">
+            <Common>
+                <Name>itb1.kp.1490262021</Name>
+                <Identity>22512481</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for GN</Comments>
+                <CreatedDate>2018-02-01T08:23:53.000Z</CreatedDate>
+                <LastUpdatedDate>2018-02-01T08:23:53.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22512470" href="/api/space/nsas/eline-ptp/service-management/service-orders/22512470" key="22512470"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333174" href="/api/space/nsas/customer-management/customers/19333174" key="19333174">
+                    <CustomerName>ITB</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22512571" uri="/api/space/nsas/eline-ptp/service-management/services/22512571" href="/api/space/nsas/eline-ptp/service-management/services/22512571">
+            <Common>
+                <Name>heanet-blanch.dcu1.1517915493</Name>
+                <Identity>22512571</Identity>
+                <State>Deployed</State>
+                <Comments>Eline P2P to DCU Glasnevin</Comments>
+                <CreatedDate>2018-02-06T14:08:03.000Z</CreatedDate>
+                <LastUpdatedDate>2018-02-06T14:08:03.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22512564" href="/api/space/nsas/eline-ptp/service-management/service-orders/22512564" key="22512564"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333171" href="/api/space/nsas/customer-management/customers/19333171" key="19333171">
+                    <CustomerName>DCU</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22512587" uri="/api/space/nsas/eline-ptp/service-management/services/22512587" href="/api/space/nsas/eline-ptp/service-management/services/22512587">
+            <Common>
+                <Name>heanet-blanch.dcu2.1517915514</Name>
+                <Identity>22512587</Identity>
+                <State>Deployed</State>
+                <Comments>Eline P2P to DCU Glasnevin</Comments>
+                <CreatedDate>2018-02-06T13:59:03.000Z</CreatedDate>
+                <LastUpdatedDate>2018-02-06T13:59:03.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22512580" href="/api/space/nsas/eline-ptp/service-management/service-orders/22512580" key="22512580"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333171" href="/api/space/nsas/customer-management/customers/19333171" key="19333171">
+                    <CustomerName>DCU</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22512636" uri="/api/space/nsas/eline-ptp/service-management/services/22512636" href="/api/space/nsas/eline-ptp/service-management/services/22512636">
+            <Common>
+                <Name>dkit1.kp.1504616825</Name>
+                <Identity>22512636</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for GN</Comments>
+                <CreatedDate>2018-02-08T08:28:24.000Z</CreatedDate>
+                <LastUpdatedDate>2018-02-08T08:28:24.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22512625" href="/api/space/nsas/eline-ptp/service-management/service-orders/22512625" key="22512625"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645020" href="/api/space/nsas/customer-management/customers/18645020" key="18645020">
+                    <CustomerName>DKIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22512691" uri="/api/space/nsas/eline-ptp/service-management/services/22512691" href="/api/space/nsas/eline-ptp/service-management/services/22512691">
+            <Common>
+                <Name>dkit1.kp.1504616830</Name>
+                <Identity>22512691</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for GN</Comments>
+                <CreatedDate>2018-02-08T08:33:45.000Z</CreatedDate>
+                <LastUpdatedDate>2018-02-08T08:33:45.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22512680" href="/api/space/nsas/eline-ptp/service-management/service-orders/22512680" key="22512680"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645020" href="/api/space/nsas/customer-management/customers/18645020" key="18645020">
+                    <CustomerName>DKIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="22512746" uri="/api/space/nsas/eline-ptp/service-management/services/22512746" href="/api/space/nsas/eline-ptp/service-management/services/22512746">
+            <Common>
+                <Name>dkit1.kp.1504616840</Name>
+                <Identity>22512746</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for GN</Comments>
+                <CreatedDate>2018-02-08T08:38:07.000Z</CreatedDate>
+                <LastUpdatedDate>2018-02-08T08:38:07.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/22512735" href="/api/space/nsas/eline-ptp/service-management/service-orders/22512735" key="22512735"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645020" href="/api/space/nsas/customer-management/customers/18645020" key="18645020">
+                    <CustomerName>DKIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23822343" uri="/api/space/nsas/eline-ptp/service-management/services/23822343" href="/api/space/nsas/eline-ptp/service-management/services/23822343">
+            <Common>
+                <Name>ucd1.gal1.1517909558</Name>
+                <Identity>23822343</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for UCD to NUIC ICHEC Service</Comments>
+                <CreatedDate>2018-03-07T10:49:18.000Z</CreatedDate>
+                <LastUpdatedDate>2018-03-07T10:49:18.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23822336" href="/api/space/nsas/eline-ptp/service-management/service-orders/23822336" key="23822336"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21823590" href="/api/space/nsas/customer-management/customers/21823590" key="21823590">
+                    <CustomerName>ICHEC</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23822377" uri="/api/space/nsas/eline-ptp/service-management/services/23822377" href="/api/space/nsas/eline-ptp/service-management/services/23822377">
+            <Common>
+                <Name>ul-troy.lim1.1517235258</Name>
+                <Identity>23822377</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Troy Village to UL</Comments>
+                <CreatedDate>2018-03-20T15:55:01.000Z</CreatedDate>
+                <LastUpdatedDate>2018-03-20T15:55:01.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23822370" href="/api/space/nsas/eline-ptp/service-management/service-orders/23822370" key="23822370"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333141" href="/api/space/nsas/customer-management/customers/19333141" key="19333141">
+                    <CustomerName>UL</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23822403" uri="/api/space/nsas/eline-ptp/service-management/services/23822403" href="/api/space/nsas/eline-ptp/service-management/services/23822403">
+            <Common>
+                <Name>nuig-shannon.gal1.1504622483</Name>
+                <Identity>23822403</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Shannon to NUIG</Comments>
+                <CreatedDate>2018-03-21T11:05:16.000Z</CreatedDate>
+                <LastUpdatedDate>2018-03-21T11:05:16.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23822396" href="/api/space/nsas/eline-ptp/service-management/service-orders/23822396" key="23822396"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23822417" uri="/api/space/nsas/eline-ptp/service-management/services/23822417" href="/api/space/nsas/eline-ptp/service-management/services/23822417">
+            <Common>
+                <Name>ul-portiuncula.lim1.1517241279</Name>
+                <Identity>23822417</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Portiuncula to UL</Comments>
+                <CreatedDate>2018-03-21T14:47:27.000Z</CreatedDate>
+                <LastUpdatedDate>2018-03-21T14:47:27.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23822410" href="/api/space/nsas/eline-ptp/service-management/service-orders/23822410" key="23822410"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333141" href="/api/space/nsas/customer-management/customers/19333141" key="19333141">
+                    <CustomerName>UL</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23822443" uri="/api/space/nsas/eline-ptp/service-management/services/23822443" href="/api/space/nsas/eline-ptp/service-management/services/23822443">
+            <Common>
+                <Name>ul-portiuncula.gal1.1517241280</Name>
+                <Identity>23822443</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Portiuncula to NUIG</Comments>
+                <CreatedDate>2018-03-21T14:50:00.000Z</CreatedDate>
+                <LastUpdatedDate>2018-03-21T14:50:00.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23822436" href="/api/space/nsas/eline-ptp/service-management/service-orders/23822436" key="23822436"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23822457" uri="/api/space/nsas/eline-ptp/service-management/services/23822457" href="/api/space/nsas/eline-ptp/service-management/services/23822457">
+            <Common>
+                <Name>ul-outreach.lim1.1517931324</Name>
+                <Identity>23822457</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for UL Outreach Centre to UL</Comments>
+                <CreatedDate>2018-03-26T12:41:52.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-03-26T12:41:52.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23822450" href="/api/space/nsas/eline-ptp/service-management/service-orders/23822450" key="23822450"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333141" href="/api/space/nsas/customer-management/customers/19333141" key="19333141">
+                    <CustomerName>UL</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23822481" uri="/api/space/nsas/eline-ptp/service-management/services/23822481" href="/api/space/nsas/eline-ptp/service-management/services/23822481">
+            <Common>
+                <Name>lit-sad.lit1.1517247630</Name>
+                <Identity>23822481</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for School of Arts and Design to LIT</Comments>
+                <CreatedDate>2018-03-26T14:32:42.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-03-26T14:32:42.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23822474" href="/api/space/nsas/eline-ptp/service-management/service-orders/23822474" key="23822474"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23822505" uri="/api/space/nsas/eline-ptp/service-management/services/23822505" href="/api/space/nsas/eline-ptp/service-management/services/23822505">
+            <Common>
+                <Name>lit-gq.lit1.1517409792</Name>
+                <Identity>23822505</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Georges Quay to LIT</Comments>
+                <CreatedDate>2018-03-27T10:35:05.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-03-27T10:35:05.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23822498" href="/api/space/nsas/eline-ptp/service-management/service-orders/23822498" key="23822498"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23822521" uri="/api/space/nsas/eline-ptp/service-management/services/23822521" href="/api/space/nsas/eline-ptp/service-management/services/23822521">
+            <Common>
+                <Name>lit-gq.lim1.1517409792</Name>
+                <Identity>23822521</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Georges Quay to UL</Comments>
+                <CreatedDate>2018-03-27T10:35:53.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-03-27T10:35:53.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23822514" href="/api/space/nsas/eline-ptp/service-management/service-orders/23822514" key="23822514"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333141" href="/api/space/nsas/customer-management/customers/19333141" key="19333141">
+                    <CustomerName>UL</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23822590" uri="/api/space/nsas/eline-ptp/service-management/services/23822590" href="/api/space/nsas/eline-ptp/service-management/services/23822590">
+            <Common>
+                <Name>tcd-lofar.cwt.1522842519</Name>
+                <Identity>23822590</Identity>
+                <State>Deployed</State>
+                <CreatedDate>2018-04-09T11:09:58.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-04-10T09:09:56.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23822583" href="/api/space/nsas/eline-ptp/service-management/service-orders/23822583" key="23822583"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712172" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712172" key="16712172">
+                        <ServiceDefinitionName>HEAnet-Eline-EPL-EVPL-service</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333138" href="/api/space/nsas/customer-management/customers/19333138" key="19333138">
+                    <CustomerName>TCD</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23822628" uri="/api/space/nsas/eline-ptp/service-management/services/23822628" href="/api/space/nsas/eline-ptp/service-management/services/23822628">
+            <Common>
+                <Name>lit-thurles.lit-clonmel.1517412592</Name>
+                <Identity>23822628</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for LIT Thurles to LIT Clonmel</Comments>
+                <CreatedDate>2018-04-06T10:03:04.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-04-06T10:03:04.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23822621" href="/api/space/nsas/eline-ptp/service-management/service-orders/23822621" key="23822621"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23822642" uri="/api/space/nsas/eline-ptp/service-management/services/23822642" href="/api/space/nsas/eline-ptp/service-management/services/23822642">
+            <Common>
+                <Name>lit-clonmel.lit1.1517412736</Name>
+                <Identity>23822642</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for LIT Clonmel to LIT</Comments>
+                <CreatedDate>2018-04-06T10:10:01.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-04-06T10:10:01.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23822635" href="/api/space/nsas/eline-ptp/service-management/service-orders/23822635" key="23822635"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23822656" uri="/api/space/nsas/eline-ptp/service-management/services/23822656" href="/api/space/nsas/eline-ptp/service-management/services/23822656">
+            <Common>
+                <Name>lit-thurles.lit1.1517505713</Name>
+                <Identity>23822656</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for LIT Thurles to LIT</Comments>
+                <CreatedDate>2018-04-06T10:08:10.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-04-06T10:08:10.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23822649" href="/api/space/nsas/eline-ptp/service-management/service-orders/23822649" key="23822649"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23822762" uri="/api/space/nsas/eline-ptp/service-management/services/23822762" href="/api/space/nsas/eline-ptp/service-management/services/23822762">
+            <Common>
+                <Name>lit-thurles.clonmel.1517505871</Name>
+                <Identity>23822762</Identity>
+                <State>Deployed</State>
+                <Comments>Eline P2P CISCO interconnect Thurles to Clonmel</Comments>
+                <CreatedDate>2018-04-06T10:24:13.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-04-06T10:24:13.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23822755" href="/api/space/nsas/eline-ptp/service-management/service-orders/23822755" key="23822755"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23822822" uri="/api/space/nsas/eline-ptp/service-management/services/23822822" href="/api/space/nsas/eline-ptp/service-management/services/23822822">
+            <Common>
+                <Name>it-thurles.pw.1517505862</Name>
+                <Identity>23822822</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for SIP Trunk LIT Thurles to LIT</Comments>
+                <CreatedDate>2018-04-06T13:10:47.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-04-06T13:10:47.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23822815" href="/api/space/nsas/eline-ptp/service-management/service-orders/23822815" key="23822815"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712172" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712172" key="16712172">
+                        <ServiceDefinitionName>HEAnet-Eline-EPL-EVPL-service</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23887879" uri="/api/space/nsas/eline-ptp/service-management/services/23887879" href="/api/space/nsas/eline-ptp/service-management/services/23887879">
+            <Common>
+                <Name>gal1.gal2.1505221148</Name>
+                <Identity>23887879</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for NUIG</Comments>
+                <CreatedDate>2018-03-07T15:56:02.000Z</CreatedDate>
+                <LastUpdatedDate>2018-03-07T15:56:02.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23887872" href="/api/space/nsas/eline-ptp/service-management/service-orders/23887872" key="23887872"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024" key="18645024">
+                    <CustomerName>NUIG</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23887923" uri="/api/space/nsas/eline-ptp/service-management/services/23887923" href="/api/space/nsas/eline-ptp/service-management/services/23887923">
+            <Common>
+                <Name>ul-cerc.lim1.1517844403</Name>
+                <Identity>23887923</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for UL CERC to UL</Comments>
+                <CreatedDate>2018-03-27T12:52:04.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-03-27T12:52:04.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23887916" href="/api/space/nsas/eline-ptp/service-management/service-orders/23887916" key="23887916"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333141" href="/api/space/nsas/customer-management/customers/19333141" key="19333141">
+                    <CustomerName>UL</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23887947" uri="/api/space/nsas/eline-ptp/service-management/services/23887947" href="/api/space/nsas/eline-ptp/service-management/services/23887947">
+            <Common>
+                <Name>ul-mic.lim1.1517932215</Name>
+                <Identity>23887947</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for UL Mary Immaculate College to UL</Comments>
+                <CreatedDate>2018-03-28T08:09:04.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-03-28T08:09:04.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23887940" href="/api/space/nsas/eline-ptp/service-management/service-orders/23887940" key="23887940"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/19333141" href="/api/space/nsas/customer-management/customers/19333141" key="19333141">
+                    <CustomerName>UL</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23887963" uri="/api/space/nsas/eline-ptp/service-management/services/23887963" href="/api/space/nsas/eline-ptp/service-management/services/23887963">
+            <Common>
+                <Name>lit-thurles.cwt.1517507825</Name>
+                <Identity>23887963</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Bluenet over RMAN LIT Thurles to Citywest</Comments>
+                <CreatedDate>2018-04-04T10:43:11.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-04-04T10:43:11.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Down</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23887956" href="/api/space/nsas/eline-ptp/service-management/service-orders/23887956" key="23887956"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23887983" uri="/api/space/nsas/eline-ptp/service-management/services/23887983" href="/api/space/nsas/eline-ptp/service-management/services/23887983">
+            <Common>
+                <Name>lit-clonmel.gal1.1517507823</Name>
+                <Identity>23887983</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Bluenet over RMAN LIT Clonmel to NUIG</Comments>
+                <CreatedDate>2018-04-04T14:37:06.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-04-04T14:37:06.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Down</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23887976" href="/api/space/nsas/eline-ptp/service-management/service-orders/23887976" key="23887976"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+        <Service key="23887997" uri="/api/space/nsas/eline-ptp/service-management/services/23887997" href="/api/space/nsas/eline-ptp/service-management/services/23887997">
+            <Common>
+                <Name>lit-questum.lit-clonmel.1517397780</Name>
+                <Identity>23887997</Identity>
+                <State>Deployed</State>
+                <Comments>Eline point to point for Questum Enterprise Centre to LIT Clonmel</Comments>
+                <CreatedDate>2018-04-04T15:56:28.000+01:00</CreatedDate>
+                <LastUpdatedDate>2018-04-04T15:56:28.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/23887990" href="/api/space/nsas/eline-ptp/service-management/service-orders/23887990" key="23887990"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" href="/api/space/nsas/eline-ptp/service-management/service-definitions/9797657" key="9797657">
+                        <ServiceDefinitionName>HEAnet-ELINE-untagg-UNI-NoBW</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/21561453" href="/api/space/nsas/customer-management/customers/21561453" key="21561453">
+                    <CustomerName>LIT</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+    </ServiceResource>
+</Data>

@@ -1,0 +1,36 @@
+Get All Customers (Version 2)
+https://csd-proxy.heanet.ie/api/space/nsas/customer-management/customers
+
+Get Customer Details By Account Number (Version 2)
+api/space/nsas/customer-management/customers?accountNo={Account-id}
+
+Get Customer Details By Customer ID (Version 2)
+api/space/nsas/customer-management/customers/<customerId>
+
+
+Get All PE devices
+api/space/nsas/device-roles/pe-devices
+
+
+Get All E-LINE LDP Services
+https://csd-proxy.heanet.ie/api/space/nsas/eline-ptp/service-management/services
+
+Get All E-LINE P2P Services By Customer ID or Name
+api/space/nsas/eline-ptp/service-management/services?customerId=360448
+api/space/nsas/eline-ptp/service-management/services?customerName=Customer_005
+
+Get one E-LINE
+https://csd-proxy.heanet.ie/api/space/nsas/eline-ptp/service-management/services/17268865
+
+
+
+
+Get All L3VPN Services
+https://csd-proxy.heanet.ie/api/space/nsas/l3vpn/service-management/services
+
+Get All L3VPN Services By Customer ID or Name
+api/space/nsas/l3vpn/service-management/services?customerId=360448
+api/space/nsas/l3vpn/service-management/services?customerName=Customer_005
+
+Get an L3VPN Service By Service ID
+api/space/nsas/l3vpn/service-management/services/360513

@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<div class="alert alert-info" role="alert" id="myheader">
+  <h6>ELINE {{ eline_one.name }} details in Juniper CSD</h6>
+</div>
+
+
+<div class="table-responsive" id="mytable">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Field</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Name
+        </td>
+        <td>
+          {{ eline_one.name }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Client
+        </td>
+        <td>
+          <a href="{% url 'inventories:client_one' eline_one.client.pk %}">{{ eline_one.client }}</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Comments
+        </td>
+        <td>
+          {{ eline_one.comments }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ID CSD
+        </td>
+        <td>
+          {{ eline_one.id_csd }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          State
+        </td>
+        <td>
+          {{ eline_one.state }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Created
+        </td>
+        <td>
+          {{ eline_one.created }}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Updated
+        </td>
+        <td>
+          {{ eline_one.updated }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+{% endblock content %}

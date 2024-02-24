@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Data xmlns="services.schema.networkapi.jmp.juniper.net">
+    <ServiceResource>
+        <Service key="17308307" uri="/api/space/nsas/l3vpn/service-management/services/17308307" href="/api/space/nsas/l3vpn/service-management/services/17308307">
+            <Common>
+                <Name>dcu.1496657111</Name>
+                <Identity>17308307</Identity>
+                <State>Deployed</State>
+                <Comments>DCU Primary IP Link</Comments>
+                <CreatedDate>2017-06-06T15:19:07.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-06-06T15:52:31.000+01:00</LastUpdatedDate>
+                <InstanceType>default</InstanceType>
+            </Common>
+            <ServiceType>L3VPN</ServiceType>
+            <EnableMVPN>false</EnableMVPN>
+            <AuditFlag>
+                <FunctionalAudit>Up</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>Up</OverallStatus>
+            </AuditFlag>
+            <endpointcount>0</endpointcount>
+            <ServiceEndPointGroup>
+                <DeviceInfo>
+                    <NA key="17957064" uri="/api/space/nsas/device-roles/pe-devices/17957064" href="/api/space/nsas/device-roles/pe-devices/17957064">
+                        <DeviceName>core1-dcu</DeviceName>
+                        <DeviceID>17957064</DeviceID>
+                    </NA>
+                </DeviceInfo>
+                <ServicePolicyBean/>
+                <ServiceEndPoint>
+                    <InterfaceName>xe-1/2/2</InterfaceName>
+                    <InterfaceId>17957068</InterfaceId>
+                    <InterfaceStatus>up</InterfaceStatus>
+                    <ServiceEndpointConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="L3VPNFMBGPEndPointConfigParameterServiceType">
+                        <UNIDescription>(UN) dcu.1496657111 DCU Primary  IP Link</UNIDescription>
+                        <RoutingProtocol>BGP</RoutingProtocol>
+                        <EthernetOption>Port</EthernetOption>
+                        <InterfaceIP>87.44.56.5/30</InterfaceIP>
+                        <MTU>1522</MTU>
+                        <PeerAS>65143</PeerAS>
+                        <NeighborIP>87.44.56.6</NeighborIP>
+                        <GroupName>DCU-V4</GroupName>
+                        <Type>external</Type>
+                        <LocalAddress>87.44.56.5</LocalAddress>
+                        <ImportPolicy>DCU-Dublin City University</ImportPolicy>
+                        <ExportPolicy>IPV4-DEFAULT-ONLY-PRIMARY</ExportPolicy>
+                    </ServiceEndpointConfiguration>
+                    <ServiceTemplates>
+                        <ServiceTemplate href="/api/space/nsas/l3vpn/service-management/service-templates/15958112" uri="/api/space/nsas/l3vpn/service-management/service-templates/15958112" key="15958112">
+                            <ID>15958112</ID>
+                            <Name>_HEAnet IPv6 BGP_Prefix_Addressing</Name>
+                            <ConfigParams>
+                                <Name>Name</Name>
+                                <DataType>String</DataType>
+                                <Description>Interface address or destination prefix</Description>
+                                <OperatorVisibility>Editable</OperatorVisibility>
+                                <Value>2001:0770:0200:2001::0/127</Value>
+                                <SetofValues/>
+                                <Xpath>/configuration/cp1/interfaces/interface[@rowId=&quot;1&quot;]/unit[@rowId=&quot;1&quot;]/family/inet6/address[@rowId=&quot;1&quot;]/name</Xpath>
+                                <Decommission>false</Decommission>
+                                <SvcSpecificValue>false</SvcSpecificValue>
+                                <ConfigPageName>cp1</ConfigPageName>
+                                <Validation/>
+                            </ConfigParams>
+                            <ConfigParams>
+                                <Name>Authentication-key</Name>
+                                <DataType>String</DataType>
+                                <Description>MD5 authentication key</Description>
+                                <OperatorVisibility>Editable</OperatorVisibility>
+                                <Value>HEAnetIPTransitRMAN</Value>
+                                <SetofValues/>
+                                <Xpath>/configuration/cp1/protocols/bgp/group[@rowId=&quot;1&quot;]/neighbor[@rowId=&quot;1&quot;]/authentication-key</Xpath>
+                                <Decommission>false</Decommission>
+                                <SvcSpecificValue>false</SvcSpecificValue>
+                                <ConfigPageName>cp1</ConfigPageName>
+                                <Validation/>
+                            </ConfigParams>
+                            <ConfigParams>
+                                <Name>Name</Name>
+                                <DataType>String</DataType>
+                                <OperatorVisibility>Editable</OperatorVisibility>
+                                <Value>2001:0770:0200:2001::1</Value>
+                                <SetofValues/>
+                                <Xpath>/configuration/cp1/protocols/bgp/group[@rowId=&quot;1&quot;]/neighbor[@rowId=&quot;1&quot;]/name</Xpath>
+                                <Decommission>false</Decommission>
+                                <SvcSpecificValue>false</SvcSpecificValue>
+                                <ConfigPageName>cp1</ConfigPageName>
+                                <Validation/>
+                            </ConfigParams>
+                            <ConfigParams>
+                                <Name>Peer-as</Name>
+                                <DataType>String</DataType>
+                                <Description>Autonomous system number in plain number or 'higher 16bits'.'Lower 16 bits' (asdot notation) format</Description>
+                                <OperatorVisibility>Editable</OperatorVisibility>
+                                <Value>65143</Value>
+                                <SetofValues/>
+                                <Xpath>/configuration/cp1/protocols/bgp/group[@rowId=&quot;1&quot;]/neighbor[@rowId=&quot;1&quot;]/peer-as</Xpath>
+                                <Decommission>false</Decommission>
+                                <SvcSpecificValue>false</SvcSpecificValue>
+                                <ConfigPageName>cp1</ConfigPageName>
+                                <Validation/>
+                            </ConfigParams>
+                        </ServiceTemplate>
+                        <ServiceTemplate href="/api/space/nsas/l3vpn/service-management/service-templates/15401050" uri="/api/space/nsas/l3vpn/service-management/service-templates/15401050" key="15401050">
+                            <ID>15401050</ID>
+                            <Name>_HEAnet IPv6 BGP_Default_Only_Primary</Name>
+                            <ConfigParams>
+                                <Name>Name</Name>
+                                <DataType>String</DataType>
+                                <OperatorVisibility>Editable</OperatorVisibility>
+                                <Value>2001:0770:0200:2001::1</Value>
+                                <SetofValues/>
+                                <Xpath>/configuration/cp1/protocols/bgp/group[@rowId=&quot;1&quot;]/neighbor[@rowId=&quot;1&quot;]/name</Xpath>
+                                <Decommission>false</Decommission>
+                                <SvcSpecificValue>false</SvcSpecificValue>
+                                <ConfigPageName>cp1</ConfigPageName>
+                                <Validation/>
+                            </ConfigParams>
+                        </ServiceTemplate>
+                        <ServiceTemplate href="/api/space/nsas/l3vpn/service-management/service-templates/18088088" uri="/api/space/nsas/l3vpn/service-management/service-templates/18088088" key="18088088">
+                            <ID>18088088</ID>
+                            <Name>_HEAnet_ IPv4_and_IPv6_MTU_1500</Name>
+                            <ConfigParams>
+                                <DataType>Number</DataType>
+                                <Description>Protocol family maximum transmission unit</Description>
+                                <OperatorVisibility>Readonly</OperatorVisibility>
+                                <Value>1500</Value>
+                                <SetofValues/>
+                                <Xpath>/configuration/cp1/interface[@rowId=&quot;1&quot;]/unit[@rowId=&quot;1&quot;]/family/inet/mtu</Xpath>
+                                <Decommission>false</Decommission>
+                                <SvcSpecificValue>false</SvcSpecificValue>
+                                <ConfigPageName>cp1</ConfigPageName>
+                                <Validation/>
+                            </ConfigParams>
+                            <ConfigParams>
+                                <DataType>Number</DataType>
+                                <Description>Protocol family maximum transmission unit</Description>
+                                <OperatorVisibility>Readonly</OperatorVisibility>
+                                <Value>1500</Value>
+                                <SetofValues/>
+                                <Xpath>/configuration/cp1/interface[@rowId=&quot;1&quot;]/unit[@rowId=&quot;1&quot;]/family/inet/mtu</Xpath>
+                                <Decommission>false</Decommission>
+                                <SvcSpecificValue>false</SvcSpecificValue>
+                                <ConfigPageName>cp1</ConfigPageName>
+                                <Validation/>
+                            </ConfigParams>
+                            <ConfigParams>
+                                <DataType>Number</DataType>
+                                <Description>Protocol family maximum transmission unit</Description>
+                                <OperatorVisibility>Readonly</OperatorVisibility>
+                                <Value>1500</Value>
+                                <SetofValues/>
+                                <Xpath>/configuration/cp1/interface[@rowId=&quot;1&quot;]/unit[@rowId=&quot;1&quot;]/family/inet6/mtu</Xpath>
+                                <Decommission>false</Decommission>
+                                <SvcSpecificValue>false</SvcSpecificValue>
+                                <ConfigPageName>cp1</ConfigPageName>
+                                <Validation/>
+                            </ConfigParams>
+                            <ConfigParams>
+                                <DataType>Number</DataType>
+                                <Description>Protocol family maximum transmission unit</Description>
+                                <OperatorVisibility>Readonly</OperatorVisibility>
+                                <Value>1500</Value>
+                                <SetofValues/>
+                                <Xpath>/configuration/cp1/interface[@rowId=&quot;1&quot;]/unit[@rowId=&quot;1&quot;]/family/inet6/mtu</Xpath>
+                                <Decommission>false</Decommission>
+                                <SvcSpecificValue>false</SvcSpecificValue>
+                                <ConfigPageName>cp1</ConfigPageName>
+                                <Validation/>
+                            </ConfigParams>
+                        </ServiceTemplate>
+                        <ServiceTemplate href="/api/space/nsas/l3vpn/service-management/service-templates/18186693" uri="/api/space/nsas/l3vpn/service-management/service-templates/18186693" key="18186693">
+                            <ID>18186693</ID>
+                            <Name>_HEAnet_BGP_IPv4_MD5</Name>
+                            <ConfigParams>
+                                <Name>Name</Name>
+                                <DataType>String</DataType>
+                                <Description>Group name</Description>
+                                <OperatorVisibility>Editable</OperatorVisibility>
+                                <Value>DCU-V4</Value>
+                                <SetofValues/>
+                                <Xpath>/configuration/cp1/protocols/bgp/group[@rowId=&quot;1&quot;]/name</Xpath>
+                                <Decommission>false</Decommission>
+                                <SvcSpecificValue>false</SvcSpecificValue>
+                                <ConfigPageName>cp1</ConfigPageName>
+                                <Validation/>
+                            </ConfigParams>
+                            <ConfigParams>
+                                <Name>Authentication-key</Name>
+                                <DataType>String</DataType>
+                                <Description>MD5 authentication key</Description>
+                                <OperatorVisibility>Editable</OperatorVisibility>
+                                <Value>HEAnetIPTransitRMAN</Value>
+                                <SetofValues/>
+                                <Xpath>/configuration/cp1/protocols/bgp/group[@rowId=&quot;1&quot;]/neighbor[@rowId=&quot;1&quot;]/authentication-key</Xpath>
+                                <Decommission>false</Decommission>
+                                <SvcSpecificValue>false</SvcSpecificValue>
+                                <ConfigPageName>cp1</ConfigPageName>
+                                <Validation/>
+                            </ConfigParams>
+                            <ConfigParams>
+                                <Name>Name</Name>
+                                <DataType>String</DataType>
+                                <OperatorVisibility>Editable</OperatorVisibility>
+                                <Value>87.44.56.6</Value>
+                                <SetofValues/>
+                                <Xpath>/configuration/cp1/protocols/bgp/group[@rowId=&quot;1&quot;]/neighbor[@rowId=&quot;1&quot;]/name</Xpath>
+                                <Decommission>false</Decommission>
+                                <SvcSpecificValue>false</SvcSpecificValue>
+                                <ConfigPageName>cp1</ConfigPageName>
+                                <Validation/>
+                            </ConfigParams>
+                        </ServiceTemplate>
+                    </ServiceTemplates>
+                </ServiceEndPoint>
+                <EnableLoopback>false</EnableLoopback>
+                <EnableStitchingPoint>false</EnableStitchingPoint>
+            </ServiceEndPointGroup>
+            <ServiceParameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="L3VPNConfigParameterServiceType">
+                <RouteTarget></RouteTarget>
+                <VRFTabelLabel>Disabled</VRFTabelLabel>
+                <ASOverride>false</ASOverride>
+                <IsBGPEpPresent>true</IsBGPEpPresent>
+                <MaximumPrefixes>0</MaximumPrefixes>
+                <ExportDirectRoutes>false</ExportDirectRoutes>
+            </ServiceParameters>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/l3vpn/service-management/service-orders/17308282" href="/api/space/nsas/l3vpn/service-management/service-orders/17308282" key="17308282"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/l3vpn/service-management/service-definitions/17633060" href="/api/space/nsas/l3vpn/service-management/service-definitions/17633060" key="17633060">
+                        <ServiceDefinitionName>HEAnet-IP--eBGP-PE-to-CE-v4-v6</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/17957016" href="/api/space/nsas/customer-management/customers/17957016" key="17957016">
+                    <CustomerName>DCU-Dublin City University</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+    </ServiceResource>
+</Data>

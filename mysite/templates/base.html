@@ -1,0 +1,153 @@
+{% load staticfiles%}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Orchestrated Service Delivery (OSD)" content="">
+    <meta name="HEAnet GLC" content="">
+
+    <!--This is the favicon-->
+    <!--<link rel="icon" href="{% static "img/circulo_persian_green.png" %}"> -->
+    <!--<link rel="icon" type="image/png" href="{% static "img/favicon-32x32.png" %}">-->
+
+    <link rel="icon" type="image/png" href="{% static "img/favicon-196x196.png" %}" sizes="196x196">
+    <link rel="icon" type="image/png" href="{% static "img/favicon-96x96.png" %}" sizes="96x96">
+    <link rel="icon" type="image/png" href="{% static "img/favicon-32x32.png" %}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{% static "img/favicon-16x16.png" %}" sizes="16x16">
+    <link rel="icon" type="image/png" href="{% static "img/favicon-128.png" %}" sizes="128x128">
+
+    <link rel="apple-touch-icon-precomposed" href="{% static "img/apple-touch-icon-152x152.png" %}" sizes="152x152">
+    <link rel="apple-touch-icon-precomposed" href="{% static "img/apple-touch-icon-144x144.png" %}" sizes="144x144">
+    <link rel="apple-touch-icon-precomposed" href="{% static "img/apple-touch-icon-120x120.png" %}" sizes="120x120">
+    <link rel="apple-touch-icon-precomposed" href="{% static "img/apple-touch-icon-114x114.png" %}" sizes="114x114">
+    <link rel="apple-touch-icon-precomposed" href="{% static "img/apple-touch-icon-76x76.png" %}" sizes="76x76">
+    <link rel="apple-touch-icon-precomposed" href="{% static "img/apple-touch-icon-72x72.png" %}" sizes="72x72">
+    <link rel="apple-touch-icon-precomposed" href="{% static "img/apple-touch-icon-60x60.png" %}" sizes="60x60">
+    <link rel="apple-touch-icon-precomposed" href="{% static "img/apple-touch-icon-57x57.png" %}" sizes="57x57">
+
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="{% static "img/mstile-144x144.png" %}">
+    <meta name="msapplication-square70x70logo" content="{% static "img/mstile-70x70.png" %}">
+    <meta name="msapplication-square150x150logo" content="{% static "img/mstile-150x150.png" %}">
+    <meta name="msapplication-wide310x150logo" content="{% static "img/mstile-310x150.png" %}">
+    <meta name="msapplication-square310x310logo" content="{% static "img/mstile-310x310.png" %}">
+
+    <title>Mutton</title>
+
+    <!-- Core/common CSS, in this case that is the Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static "bootstrap/dist/css/bootstrap.min.css" %}">
+
+    <!-- Custom/Specific CSS styles for this template, in this case that is Bootstrap Sticky footer with fixed navbar -->
+    <link rel="stylesheet" type="text/css" href="{% static "bootstrap/docs/4.0/examples/sticky-footer-navbar/sticky-footer-navbar.css" %}">
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <!-- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"> ORIGINAL -->
+    <!-- check colors in http://getbootstrap.com/docs/4.0/utilities/colors/ -->
+    <!-- <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light"> -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
+      <!--
+      <a class="navbar-brand" href="{% url 'core:about' %}">Walter</a>
+      -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="{% url 'core:about' %}">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <!--
+          <li class="nav-item">
+            <a class="nav-link" href="#">Group A</a>
+          </li>
+          -->
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Inventories</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="{% url 'inventories:client_all' %}">Clients</a>
+              <a class="dropdown-item" href="{% url 'inventories:ne_all' %}">NE</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{% url 'inventories:eline_ldp_all' %}">ELINE LDP</a>
+              <a class="dropdown-item" href="{% url 'inventories:l3vpn_all' %}">L3VPN</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{% url 'inventories:service_all' %}">Services</a>
+              <a class="dropdown-item" href="{% url 'inventories:service_endpoint_all' %}">Service Endpoints</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">API</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="nav-link" href="/api/v1/">Django&nbsp;REST&nbsp;Framework</a>
+              <a class="nav-link" href="/docs/">DRF built-in documentation</a>
+              <a class="nav-link" href="/api-swagger/">Django REST Swagger documentation</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="{% url 'core:about' %}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Documentation</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="{% url 'core:about' %}">About</a>
+            </div>
+          </li>
+
+
+        </ul>
+        <!--
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        -->
+      </div>
+    </nav>
+
+
+
+    <!-- page content, begin -->
+    <div class="container">
+      <div class="mt-3">
+      <!-- for spacing, check: https://v4-alpha.getbootstrap.com/utilities/spacing/ -->
+      {% block content %}
+      {% endblock content %}
+      </div>
+    </div>
+    <!-- page content, end -->
+
+
+
+	<!--
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+      </div>
+    </footer>
+	-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <script src="{% static "jquery/jquery-3.3.1.slim.min.js" %}"></script>
+
+    <!-- <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script> -->
+    <script>window.jQuery || document.write('<script src="bootstrap/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+
+    <!-- <script src="../../../../assets/js/vendor/popper.min.js"></script> -->
+    <script src="{% static "bootstrap/assets/js/vendor/popper.min.js" %}"></script>
+
+    <!-- <script src="../../../../dist/js/bootstrap.min.js"></script> -->
+    <script src="{% static "bootstrap/dist/js/bootstrap.min.js" %}"></script>
+
+  </body>
+</html>

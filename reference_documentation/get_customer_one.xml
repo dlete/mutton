@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Data xmlns="services.schema.networkapi.jmp.juniper.net">
+    <Customers>
+        <Customer key="17957016" uri="/api/space/nsas/customer-management/customers/17957016" href="/api/space/nsas/customer-management/customers/17957016">
+            <Common>
+                <CustomerName>DCU-Dublin City University</CustomerName>
+                <Identity>17957016</Identity>
+                <CreatedDate>2017-05-17T19:06:44.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-05-17T19:06:44.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>17</AccountNo>
+        </Customer>
+    </Customers>
+</Data>

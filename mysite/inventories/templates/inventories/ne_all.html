@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<div class="alert alert-info" role="alert" id="myheader">
+  <h6>These are all the NE in Juniper CSD</h6>
+</div>
+
+
+<div class="table-responsive" id="mytable">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>FQDN</th>
+        <th>ID CSD</th>
+        <th>Role</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for ne in ne_all %}
+        <tr>
+          <td>
+            {{ ne.fqdn }}
+          </td>
+          <td>
+            {{ ne.id_csd }}
+          </td>
+          <td>
+            {{ ne.role }}
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  </div>
+
+{% endblock content %}

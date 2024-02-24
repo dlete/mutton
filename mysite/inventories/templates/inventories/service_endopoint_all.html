@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<div class="alert alert-info" role="alert" id="myheader">
+  <h6>These are all the Service Endpoints in Juniper CSD</h6>
+</div>
+
+
+<div class="table-responsive" id="mytable">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>NE</th>
+        <th>Interface Name</th>
+        <th>Interface Index</th>
+        <th>Service</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for i in service_endpoint_all %}
+        <tr>
+          <td>
+            {{ i.ne }}
+          </td>
+          <td>
+            {{ i.interface_name }}
+          </td>
+          <td>
+            {{ i.interface_index }}
+          </td>
+          <td>
+            {{ i.service }}
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  </div>
+
+{% endblock content %}
